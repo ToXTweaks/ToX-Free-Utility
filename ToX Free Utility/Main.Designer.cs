@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.MainPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.homecircle = new Guna.UI2.WinForms.Guna2Shapes();
             this.wincircle = new Guna.UI2.WinForms.Guna2Shapes();
             this.debloatcircle = new Guna.UI2.WinForms.Guna2Shapes();
@@ -39,7 +39,7 @@
             this.gpucircle = new Guna.UI2.WinForms.Guna2Shapes();
             this.gamingcircle = new Guna.UI2.WinForms.Guna2Shapes();
             this.infocircle = new Guna.UI2.WinForms.Guna2Shapes();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.premiumbutton = new Guna.UI2.WinForms.Guna2Button();
             this.infobutton = new Guna.UI2.WinForms.Guna2Button();
             this.gamingbutton = new Guna.UI2.WinForms.Guna2Button();
             this.gpubutton = new Guna.UI2.WinForms.Guna2Button();
@@ -58,7 +58,7 @@
             // guna2BorderlessForm1
             // 
             this.guna2BorderlessForm1.AnimationInterval = 1000;
-            this.guna2BorderlessForm1.BorderRadius = 4;
+            this.guna2BorderlessForm1.BorderRadius = 8;
             this.guna2BorderlessForm1.ContainerControl = this;
             this.guna2BorderlessForm1.DockForm = false;
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
@@ -66,17 +66,17 @@
             this.guna2BorderlessForm1.ResizeForm = false;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
-            // guna2Panel1
+            // MainPanel
             // 
-            this.guna2Panel1.AutoScroll = true;
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.guna2Panel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.guna2Panel1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2Panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(58, 36);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1107, 635);
-            this.guna2Panel1.TabIndex = 32;
+            this.MainPanel.AutoScroll = true;
+            this.MainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.MainPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.MainPanel.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.MainPanel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.MainPanel.Location = new System.Drawing.Point(58, 36);
+            this.MainPanel.Name = "MainPanel";
+            this.MainPanel.Size = new System.Drawing.Size(1107, 635);
+            this.MainPanel.TabIndex = 32;
             // 
             // homecircle
             // 
@@ -96,7 +96,7 @@
             // 
             // wincircle
             // 
-            this.wincircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.wincircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.wincircle.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
             this.wincircle.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
             this.wincircle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -113,7 +113,7 @@
             // 
             // debloatcircle
             // 
-            this.debloatcircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.debloatcircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.debloatcircle.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
             this.debloatcircle.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
             this.debloatcircle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -130,7 +130,7 @@
             // 
             // cpucircle
             // 
-            this.cpucircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cpucircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.cpucircle.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
             this.cpucircle.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
             this.cpucircle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -147,7 +147,7 @@
             // 
             // gpucircle
             // 
-            this.gpucircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.gpucircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.gpucircle.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
             this.gpucircle.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
             this.gpucircle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -164,7 +164,7 @@
             // 
             // gamingcircle
             // 
-            this.gamingcircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.gamingcircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.gamingcircle.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
             this.gamingcircle.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
             this.gamingcircle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -180,7 +180,7 @@
             // 
             // infocircle
             // 
-            this.infocircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.infocircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.infocircle.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
             this.infocircle.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
             this.infocircle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -195,22 +195,22 @@
             this.infocircle.Visible = false;
             this.infocircle.Zoom = 80;
             // 
-            // guna2Button2
+            // premiumbutton
             // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
-            this.guna2Button2.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button2.Location = new System.Drawing.Point(1, 575);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(57, 45);
-            this.guna2Button2.TabIndex = 46;
+            this.premiumbutton.Animated = true;
+            this.premiumbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.premiumbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.premiumbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.premiumbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.premiumbutton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.premiumbutton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.premiumbutton.ForeColor = System.Drawing.Color.White;
+            this.premiumbutton.Image = ((System.Drawing.Image)(resources.GetObject("premiumbutton.Image")));
+            this.premiumbutton.ImageSize = new System.Drawing.Size(30, 30);
+            this.premiumbutton.Location = new System.Drawing.Point(1, 575);
+            this.premiumbutton.Name = "premiumbutton";
+            this.premiumbutton.Size = new System.Drawing.Size(57, 45);
+            this.premiumbutton.TabIndex = 46;
             // 
             // infobutton
             // 
@@ -247,6 +247,8 @@
             this.gamingbutton.Size = new System.Drawing.Size(57, 45);
             this.gamingbutton.TabIndex = 42;
             this.gamingbutton.Click += new System.EventHandler(this.gamingbutton_Click);
+            this.gamingbutton.MouseEnter += new System.EventHandler(this.gamingbutton_MouseEnter);
+            this.gamingbutton.MouseLeave += new System.EventHandler(this.gamingbutton_MouseLeave);
             // 
             // gpubutton
             // 
@@ -266,6 +268,8 @@
             this.gpubutton.Size = new System.Drawing.Size(57, 45);
             this.gpubutton.TabIndex = 40;
             this.gpubutton.Click += new System.EventHandler(this.gpubutton_Click);
+            this.gpubutton.MouseEnter += new System.EventHandler(this.gpubutton_MouseEnter);
+            this.gpubutton.MouseLeave += new System.EventHandler(this.gpubutton_MouseLeave);
             // 
             // cpubutton
             // 
@@ -285,6 +289,8 @@
             this.cpubutton.Size = new System.Drawing.Size(57, 45);
             this.cpubutton.TabIndex = 38;
             this.cpubutton.Click += new System.EventHandler(this.cpubutton_Click);
+            this.cpubutton.MouseEnter += new System.EventHandler(this.cpubutton_MouseEnter);
+            this.cpubutton.MouseLeave += new System.EventHandler(this.cpubutton_MouseLeave);
             // 
             // debloatbutton
             // 
@@ -304,6 +310,8 @@
             this.debloatbutton.Size = new System.Drawing.Size(57, 45);
             this.debloatbutton.TabIndex = 36;
             this.debloatbutton.Click += new System.EventHandler(this.debloatbutton_Click);
+            this.debloatbutton.MouseEnter += new System.EventHandler(this.debloatbutton_MouseEnter);
+            this.debloatbutton.MouseLeave += new System.EventHandler(this.debloatbutton_MouseLeave);
             // 
             // winbutton
             // 
@@ -323,10 +331,13 @@
             this.winbutton.Size = new System.Drawing.Size(57, 45);
             this.winbutton.TabIndex = 34;
             this.winbutton.Click += new System.EventHandler(this.winbutton_Click);
+            this.winbutton.MouseEnter += new System.EventHandler(this.winbutton_MouseEnter);
+            this.winbutton.MouseLeave += new System.EventHandler(this.winbutton_MouseLeave);
             // 
             // homebutton
             // 
             this.homebutton.Animated = true;
+            this.homebutton.BackColor = System.Drawing.Color.Transparent;
             this.homebutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.homebutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.homebutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -409,7 +420,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.ClientSize = new System.Drawing.Size(1166, 672);
-            this.Controls.Add(this.guna2Button2);
+            this.Controls.Add(this.premiumbutton);
             this.Controls.Add(this.infocircle);
             this.Controls.Add(this.infobutton);
             this.Controls.Add(this.gamingcircle);
@@ -424,13 +435,14 @@
             this.Controls.Add(this.winbutton);
             this.Controls.Add(this.homecircle);
             this.Controls.Add(this.homebutton);
-            this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.guna2PictureBox2);
             this.Controls.Add(this.guna2ImageButton2);
             this.Controls.Add(this.guna2ImageButton1);
             this.Controls.Add(this.guna2PictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
@@ -446,7 +458,7 @@
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
-        public Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        public Guna.UI2.WinForms.Guna2Panel MainPanel;
         private Guna.UI2.WinForms.Guna2Button homebutton;
         private Guna.UI2.WinForms.Guna2Shapes homecircle;
         private Guna.UI2.WinForms.Guna2Shapes gpucircle;
@@ -459,7 +471,7 @@
         private Guna.UI2.WinForms.Guna2Button winbutton;
         private Guna.UI2.WinForms.Guna2Shapes gamingcircle;
         private Guna.UI2.WinForms.Guna2Button gamingbutton;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button premiumbutton;
         private Guna.UI2.WinForms.Guna2Shapes infocircle;
         private Guna.UI2.WinForms.Guna2Button infobutton;
     }
