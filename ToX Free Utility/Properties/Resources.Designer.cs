@@ -63,9 +63,9 @@ namespace ToX_Free_Utility.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cpug {
+        internal static System.Drawing.Bitmap clean {
             get {
-                object obj = ResourceManager.GetObject("cpug", resourceCulture);
+                object obj = ResourceManager.GetObject("clean", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace ToX_Free_Utility.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cpuw {
+        internal static System.Drawing.Bitmap closed_eye_16px {
             get {
-                object obj = ResourceManager.GetObject("cpuw", resourceCulture);
+                object obj = ResourceManager.GetObject("closed_eye_16px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +96,16 @@ namespace ToX_Free_Utility.Properties {
         internal static System.Drawing.Bitmap debloatw {
             get {
                 object obj = ResourceManager.GetObject("debloatw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap eye_16px {
+            get {
+                object obj = ResourceManager.GetObject("eye_16px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +173,16 @@ namespace ToX_Free_Utility.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_warning_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-warning-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap infog {
             get {
                 object obj = ResourceManager.GetObject("infog", resourceCulture);
@@ -176,6 +196,56 @@ namespace ToX_Free_Utility.Properties {
         internal static System.Drawing.Bitmap infow {
             get {
                 object obj = ResourceManager.GetObject("infow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sort_down_24px {
+            get {
+                object obj = ResourceManager.GetObject("sort_down_24px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap start_up {
+            get {
+                object obj = ResourceManager.GetObject("start_up", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap start_up__1_ {
+            get {
+                object obj = ResourceManager.GetObject("start_up__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap usbg {
+            get {
+                object obj = ResourceManager.GetObject("usbg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap usbw {
+            get {
+                object obj = ResourceManager.GetObject("usbw", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

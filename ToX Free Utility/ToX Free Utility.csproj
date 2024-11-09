@@ -36,10 +36,18 @@
     <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.11.67.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.11.67\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -52,6 +60,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingForms\TweaksLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingForms\TweaksLoading.Designer.cs">
+      <DependentUpon>TweaksLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingForms\UninstallJunkLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingForms\UninstallJunkLoading.Designer.cs">
+      <DependentUpon>UninstallJunkLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingForms\UninstallJunkSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingForms\UninstallJunkSuccess.Designer.cs">
+      <DependentUpon>UninstallJunkSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingForms\TweaksSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingForms\TweaksSuccess.Designer.cs">
+      <DependentUpon>TweaksSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingForms\GameBoostersSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingForms\GameBoostersSuccess.Designer.cs">
+      <DependentUpon>GameBoostersSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingForms\GameBoostersLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingForms\GameBoostersLoading.Designer.cs">
+      <DependentUpon>GameBoostersLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchase.Designer.cs">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +122,78 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tabs\Debloat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabs\Debloat.Designer.cs">
+      <DependentUpon>Debloat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\GPUTweaks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabs\GPUTweaks.Designer.cs">
+      <DependentUpon>GPUTweaks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\GameBoosters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabs\GameBoosters.Designer.cs">
+      <DependentUpon>GameBoosters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\peripherals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabs\peripherals.Designer.cs">
+      <DependentUpon>peripherals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\WindowsTweaksP4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabs\WindowsTweaksP4.Designer.cs">
+      <DependentUpon>WindowsTweaksP4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\WindowsTweaksP3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabs\WindowsTweaksP3.Designer.cs">
+      <DependentUpon>WindowsTweaksP3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\WindowsTweaksP2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabs\WindowsTweaksP2.Designer.cs">
+      <DependentUpon>WindowsTweaksP2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabs\WindowsTweaks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabs\WindowsTweaks.Designer.cs">
+      <DependentUpon>WindowsTweaks.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingForms\TweaksLoading.resx">
+      <DependentUpon>TweaksLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingForms\UninstallJunkLoading.resx">
+      <DependentUpon>UninstallJunkLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingForms\UninstallJunkSuccess.resx">
+      <DependentUpon>UninstallJunkSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingForms\TweaksSuccess.resx">
+      <DependentUpon>TweaksSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingForms\GameBoostersSuccess.resx">
+      <DependentUpon>GameBoostersSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingForms\GameBoostersLoading.resx">
+      <DependentUpon>GameBoostersLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Purchase.resx">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
@@ -82,6 +210,30 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Tabs\Debloat.resx">
+      <DependentUpon>Debloat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\GPUTweaks.resx">
+      <DependentUpon>GPUTweaks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\GameBoosters.resx">
+      <DependentUpon>GameBoosters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\peripherals.resx">
+      <DependentUpon>peripherals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\WindowsTweaksP4.resx">
+      <DependentUpon>WindowsTweaksP4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\WindowsTweaksP3.resx">
+      <DependentUpon>WindowsTweaksP3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\WindowsTweaksP2.resx">
+      <DependentUpon>WindowsTweaksP2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabs\WindowsTweaks.resx">
+      <DependentUpon>WindowsTweaks.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -137,6 +289,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-info-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-1-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-2-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-3-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-1-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-2-48 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-3-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tools-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\debloatw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-usb-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-usb-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usbw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-usb-30 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-usb-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closed_eye_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sort_down_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start-up %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clean.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-warning-48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

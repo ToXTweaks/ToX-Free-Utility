@@ -17,6 +17,7 @@ namespace ToX_Free_Utility
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Main());
+
         }
     }
 }
