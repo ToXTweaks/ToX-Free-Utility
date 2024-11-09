@@ -9,3 +9,5 @@ Looking to boost your PC’s performance? 🖥️ With **ToX Free Utility**, you
 - 🛠️ **Powerful Tools** – Tweak CPU, RAM, and more for peak performance.
 
 Say goodbye to lag and sluggishness! Download **ToX Free Utility** and take your Windows experience to the next level! 💥
+# Preview
+![image](https://github.com/user-attachments/assets/13a11dcf-3679-4a21-a066-b7d65c5d0195)
