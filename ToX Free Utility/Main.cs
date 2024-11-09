@@ -1,15 +1,7 @@
-﻿using Guna.UI2.WinForms;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using System;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Management.Instrumentation;
 using System.Reflection;
-using System.Security.Cryptography;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ToX_Free_Utility.Properties;
@@ -170,6 +162,7 @@ namespace ToX_Free_Utility
             infocircle.Visible = false;
             // nav bar colors
             debloatbutton.FillColor = Color.FromArgb(40, 40, 40);
+            homebutton.FillColor = Color.FromArgb(33, 33, 33);
             winbutton.FillColor = Color.FromArgb(33, 33, 33);
             winbutton.FillColor = Color.FromArgb(33, 33, 33);
             usbbutton.FillColor = Color.FromArgb(33, 33, 33);
@@ -218,6 +211,7 @@ namespace ToX_Free_Utility
             infocircle.Visible = false;
             // nav bar colors
             usbbutton.FillColor = Color.FromArgb(40, 40, 40);
+            homebutton.FillColor = Color.FromArgb(33, 33, 33);
             winbutton.FillColor = Color.FromArgb(33, 33, 33);
             debloatbutton.FillColor = Color.FromArgb(33, 33, 33);
             winbutton.FillColor = Color.FromArgb(33, 33, 33);
@@ -273,6 +267,7 @@ namespace ToX_Free_Utility
             infocircle.Visible = false;
             // nav bar colors
             gpubutton.FillColor = Color.FromArgb(40, 40, 40);
+            homebutton.FillColor = Color.FromArgb(33, 33, 33);
             winbutton.FillColor = Color.FromArgb(33, 33, 33);
             debloatbutton.FillColor = Color.FromArgb(33, 33, 33);
             usbbutton.FillColor = Color.FromArgb(33, 33, 33);
@@ -454,7 +449,7 @@ namespace ToX_Free_Utility
 
         private void homebutton_MouseLeave(object sender, EventArgs e)
         {
-            if (homecircle.Visible) 
+            if (homecircle.Visible)
             {
                 homecircle.BackColor = Color.FromArgb(40, 40, 40);
             }

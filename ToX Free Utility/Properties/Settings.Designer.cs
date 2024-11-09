@@ -118,5 +118,317 @@ namespace ToX_Free_Utility.Properties {
                 this["MDQS"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool GeneralNvidia {
+            get {
+                return ((bool)(this["GeneralNvidia"]));
+            }
+            set {
+                this["GeneralNvidia"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool NvHidden {
+            get {
+                return ((bool)(this["NvHidden"]));
+            }
+            set {
+                this["NvHidden"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool NviPstate {
+            get {
+                return ((bool)(this["NviPstate"]));
+            }
+            set {
+                this["NviPstate"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool NIP {
+            get {
+                return ((bool)(this["NIP"]));
+            }
+            set {
+                this["NIP"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool GeneralAMD {
+            get {
+                return ((bool)(this["GeneralAMD"]));
+            }
+            set {
+                this["GeneralAMD"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool AMDHidden {
+            get {
+                return ((bool)(this["AMDHidden"]));
+            }
+            set {
+                this["AMDHidden"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool AMDPStates {
+            get {
+                return ((bool)(this["AMDPStates"]));
+            }
+            set {
+                this["AMDPStates"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool AmdSC {
+            get {
+                return ((bool)(this["AmdSC"]));
+            }
+            set {
+                this["AmdSC"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool BasicPrivacy {
+            get {
+                return ((bool)(this["BasicPrivacy"]));
+            }
+            set {
+                this["BasicPrivacy"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool BasicPerf {
+            get {
+                return ((bool)(this["BasicPerf"]));
+            }
+            set {
+                this["BasicPerf"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool GameBar {
+            get {
+                return ((bool)(this["GameBar"]));
+            }
+            set {
+                this["GameBar"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool DFeatures {
+            get {
+                return ((bool)(this["DFeatures"]));
+            }
+            set {
+                this["DFeatures"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool PowerPlan {
+            get {
+                return ((bool)(this["PowerPlan"]));
+            }
+            set {
+                this["PowerPlan"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool DCortana {
+            get {
+                return ((bool)(this["DCortana"]));
+            }
+            set {
+                this["DCortana"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool TweakCSRSS {
+            get {
+                return ((bool)(this["TweakCSRSS"]));
+            }
+            set {
+                this["TweakCSRSS"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool TweakMMCSS {
+            get {
+                return ((bool)(this["TweakMMCSS"]));
+            }
+            set {
+                this["TweakMMCSS"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool DisableDefender {
+            get {
+                return ((bool)(this["DisableDefender"]));
+            }
+            set {
+                this["DisableDefender"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool FixJPEG {
+            get {
+                return ((bool)(this["FixJPEG"]));
+            }
+            set {
+                this["FixJPEG"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool BasicServices {
+            get {
+                return ((bool)(this["BasicServices"]));
+            }
+            set {
+                this["BasicServices"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool MicrosoftEdge {
+            get {
+                return ((bool)(this["MicrosoftEdge"]));
+            }
+            set {
+                this["MicrosoftEdge"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool BCDedit {
+            get {
+                return ((bool)(this["BCDedit"]));
+            }
+            set {
+                this["BCDedit"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool USBPSavings {
+            get {
+                return ((bool)(this["USBPSavings"]));
+            }
+            set {
+                this["USBPSavings"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool SetSVCHost {
+            get {
+                return ((bool)(this["SetSVCHost"]));
+            }
+            set {
+                this["SetSVCHost"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Network {
+            get {
+                return ((bool)(this["Network"]));
+            }
+            set {
+                this["Network"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Memory {
+            get {
+                return ((bool)(this["Memory"]));
+            }
+            set {
+                this["Memory"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool DUAC {
+            get {
+                return ((bool)(this["DUAC"]));
+            }
+            set {
+                this["DUAC"] = value;
+            }
+        }
     }
 }

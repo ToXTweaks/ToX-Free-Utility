@@ -243,7 +243,7 @@
   <data name="guna2PictureBox26.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAz5JREFUaEPtmMlrFEEUh8cF9eoCgsQYvQWMe87iH+BRjeLBYMzNkwdRhAFhZjIb
+        DgAACw4BQL7hQQAAAz5JREFUaEPtmMlrFEEUh8cF9eoCgsQYvQWMe87iH+BRjeLBYMzNkwdRhAFhZjIb
         mqMgQYxo0gmeFfHsTfBs4tljXBAj0fF7w4sMZU26urq6J4f5wUcv1e/3XlVv1V3oq6++wqtYLO6qVCpH
         arXaMUHWp6end2rz5lOj0dg3NTV1A57Dp2q1+htaBrJvWY5hOVEul/dqeO9EEaMUswCrYBYch8QscHZO
         q11+YhQH4aVRkDd4LcKA2mcrRuwqSb+ZRaSFDnxleVnThBc35laSPDQTh4YcjVartUXThpEUj/kTM1mG
@@ -302,48 +302,38 @@
 changes to the operating system by prompting for permission or an administrator 
 password before allowing certain actions.</value>
   </data>
-  <data name="guna2PictureBox16.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="guna2ImageButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DAAACwwBP0AiyAAAAotJREFUWEftls1vDVEYxt8mTVV8lChBiI2vJYoF/wBigaVE00UTidgpC0KlRFg1
-        hIgNwloisWrra+M/EPwBSFgQ9ZkIr+e57zOZW3fm3jk3d9Okvze/ZO5zz9yZe86ZM8fmmF24rdQRj4fg
-        L/gNvoZT8BTcqBYdxG0XfA6/wF5l+2FZPYYDtXYdwe2Wfvg73KasG86DC+AmeADehp8g6y+8Brtr7ZNx
-        m68jHi+F5+EKJeW49cFL8AdksTeW6NuK8OJuL+CoknTctsO3MLuJhJ5wu6ET38PFStNxWwOzm7iqtAJu
-        R+FHuFtJ+7jtgD/hHxjzpxKcYJ3C7TJkTSkpwW0ZbL/LSUzCIX0KOAnzp2OD0gLczkHO3mNK0nDrgU8g
-        64TSwO2O8pNKCojZyjqipDpuXfCezn8H1+qbwO2gvptUUkA8v4/gOiXVcbsAWdNwi9KcWKxYb5Qk4nYG
-        Fo+f23Dtp91+wz1KZ+K2SG2mlSTgdlgnf4b7lAa8YFyYNay0kUo3EN3YOARx8gPI4vN8GnLMt0J2Oeui
-        WhdTaQjilcoaVJITF+SFeQOsh5CTjXUfdqllMW6H1HZCSQFuZyFXreNKGuEQxFBk9RT26Nty3O6q/YiS
-        Atz6YZ8+lcPJ6PZStn7TxUKU3XSThaieVkux20K4Wp+a43YFspp0fz3xWH2AnXgZ7YTZy6hxfSjE7Tpk
-        8XXcekjK4GqYT9RxpRXINyRjStKJf55dfBImbs1mbsn4hhuFy5WUExOOY84dc3bxxC3Z/7jd1I9xUxq7
-        3diU9kJOxs2QLxs+atls55iPwzY3pfXEtvwZ5KoXPeO2F5YV/3XFCZeC2yod8XgQspu/wldwAo7A9Wox
-        x2zA7B+17pVuINGMZAAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAdhJREFUWEftlr1Lw0AYxuv3F4qCo5MgDk4O7k7+B5laqF5qpYOTuIgQBUHE3KUZ
+        HDo4FqWr4qJQB6ntXcDPQXQQFzdBHERBie/Za7H2YoukaYf84KHhru/7PE3urgn4+PjUm9DmeQ/CbBkR
+        uqZo1+1i2HuQTsdVzG5UwuxvYTYnprwF6blphOlbMUg+zIqY9gZNs5tVQnFJiHqE4WsCTHfKQhTkVZho
+        wuoGswNpiIK8CBNbvxwAo4w0wA/BrkpMx09Horo1qGnpVlHuHmHjrB+2rSUzr0IvsMgfQBdwfQR9kiAT
+        tKRiS0EGHRU2lUEbJ73V3JH/CkJ9qgabFHbOzJu3HVBw/LuB+6IpYekMfHGrvLAGwuxeWDrDn7W02GXB
+        o3oWls4gwlZlxW4LwtwJS2f4SQuBdmUNXBVm28Lyb+Cga4Pke9Im7ug1QnJjwq4yYS3dCekPJY0qiL7D
+        unuE2iv4TMOPSsK4AdeLKqah2Tid4EeHsKkeBWe6oMF+uWGp+Ak8Q+hw0Mz2idLaoKRSLfz5ykIU5ekr
+        hG03we3WpUG4vH6f4cD/ygIYfzREGA4i1hRs/aeGCMOJmNkhvlMKYSKERsVUfcgfjrmgqlsxvsjFsI+P
+        TwMQCHwBGnJ90ePBHR4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="label19.Text" xml:space="preserve">
-    <value>This script implements a memory optimization tweak by disabling Windows Prefetch
-and Superfetch, which are designed to improve application load times. It also disables 
-memory compression through PowerShell to enhance overall system performance.</value>
-  </data>
-  <data name="guna2PictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="guna2PictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        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
+        30r7JlKpvzkZqOtQoGEFAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="guna2PictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -368,24 +358,26 @@ memory compression through PowerShell to enhance overall system performance.</va
 features and adjusting settings for jumbo frames, buffer sizes, offloads, and 
 receive-side scaling (RSS) to enhance performance and reduce latency.</value>
   </data>
-  <data name="guna2PictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="guna2PictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DAAACwwBP0AiyAAAA0FJREFUaEPtWjuIU0EUzfprRBBsbfxUFgqWFmJjof0i6oY178UVFEtt0ym6mYli
-        obuCrbpgJSJ+wF9WsjNZXHVtBLUQtlQRwUXEeO7kriYvk2RevlO8A6fY8+7ce+68efPmhU31GoHUs6HQ
-        L3O5yiqWnDWvAHOfQqkrQWFuL0vOmlcIhJ4yBoU6yZKz5hWwZG6QwVCWsyw5a95gYqq8FjO8RAYzorQr
-        juYVMLvjZpaFfsuSs+YPKpURmHtHBgOp0rE0n3BMlncbc0J/zuWerImjeQUskxNVg+o6S86aV8AudJoM
-        hkJdZclZ8wphQe8zMy31R5acNa9ARw0sm2dElpy1BAlaAGt+1jzEMYidq8jD/UEo1Qub2VZEI895uF9Y
-        Mch/NoVr3NCQNOIbkkZ8Q9KIb0ga8Q1JIz4hI3RI5gKpvrDUFBRDsTSGJT+QnSxtgbHvZC5b0IdZbopQ
-        lI9QLA6aP0Ixv53l4cJ88Un9lIwFQt9huS1w7L9VHaOKozMzq1keHmDmLBtaSl+Z28RyW4wXXm2kn4R4
-        7BmWh4PMZGkHjPwMhfqDb/CDLDsjzOv9NBaNLIeX5neyPFiY32+lKtOM9ogLo7nFdZx+cMAsnreY6Yp4
-        bs5x+sHgeF7twVL6bTPTFZGTcnOZ/mJscmE9Cr63GukFhf4QXChu4HL9A56La1YDKxTqK3ajKUOpvllj
-        2pBqcLn+IFNQB8wOZSluiCbo5cjhqYxUWztqBjWoFqfpLegdQe8Ka2GmbSahT0fjXBj3veQMrN3btoK1
-        pOXE4f8AvbERoR7AqETjDxuu1RI1OU1v8P9s1IZYWrSceFhq4mJ5W3RpBXLuKF82wJix2usNRG0O7Q7Z
-        y6XNMGNOqy5k43QXpqNN0J3gtHXAzD+qi6sh1SYPHNohKpURJGp9+2MQufKcuQ44BQtb/ArJA3nh8PjA
-        bR21Je6UxpAFuPY4GtvAvDrE4fGBwnetSbshnglOb4AaaWtchIi7x0PiA7f8jS1p18QzQbtWq2cjSsS/
-        ZlvxgUPcfVvSYZBWB9uKD+dtdwB0+YRujup/KdyMJh006bO4q12LQN/kWalO0RoFl22F+kHU+oWTwiL9
-        30r7JlKpvzkZqOtQoGEFAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAA8BJREFUaEPtWclOFFEUvSpiiCwcFw5fAYh+gYagG2OMG9CvEDURN6gxJgrBYYOR
+        YFyhidEPAOMXSFw5LBzihBqjiaIunuf0va+6urooamw2fU5O0tz76tV93W+47yJttNFGCXCyFtoHnYHu
+        Q8+gb9BfEz/Tdg86De2F1trTqwgnu6GL0DsoK99CF6Bd1lsL4WQrdBP6AxXlEnQd2mK9Vwwnx6AvUJTv
+        oSloCOqBOMj1pm1QLzQM3YI+QFEuQkftLRXASQfEbz3KOWgQWmctV4b2dRCah6K8BnVYy5LgpAt6VOu+
+        zufQfmuRH04GoBe1Hut8CHVZi4LQbysa/DS00VoUh5NuaKbWc50cRAm/RPO0OWue8uFkNHiLctI8OaEL
+        NszqgvdoHsQR82SE7iLh3WbaPNXDyZ3grU4+Q5vNkwGNU4cLtrw5vxJ0TbysvVmZcSrpCRs+pA6Yp3XQ
+        3cmTh91O86SApgeec2ZtPZw8DqJwct6sK4AHUmNuM2ie1kMPO8/XUIoEULNKT6YHJZ+KgGavk9BPaMys
+        zdAz6CPk2W+eBGhK7Dll1vKgwTMf8vxunng4uR20dDJi1gRoPu85ZNZy0Bw8edm88XByPGjpZNasCdCL
+        h2ePWYsjPnhmr8nz2kmftSUXzJoAJ1+D5jzMykDe4Akn2609uWjWBDTu/51mjYeTS9A/6AoUH0yR4Akn
+        G+wZcsmsCcg2gF9BSw2yMaiiwRM5BpB+Cjm5GrRU1gdRRvBEjikUXsS9Zo1HfJD8m/t38eAJJ3vseTLV
+        Ig5vo8NmXR7xg4jesPIFTzg5YX2QqbbR7AeZkzXQDXsmSg4uX/CE3v48T5o1AVp08mT1IF0qEf9L5P/m
+        CZ2Kn2o9KfvMkwANhEUnz/TJnD47Dv2AuMDzB084OQR5pkzmCK2Yec6btfVw8iSIIinpawLLfXqJ8Bww
+        T+ugtSbP31CGCw2h5T5P7ird5qkeeqV8VXuzcsI8GaCXepb7PGfMUz2c3A3eqos4x6WeYK2y3hE5ap7q
+        4ORc8DblYfPkhNYqw6xuEM3Bj5unAHQvZpkvTNZtylsTOufD04Z8AKUvGCdCi7vRQbBuU3x30t0mvGBJ
+        Bl9ScddDfwlexKNk6YPVg/SXf+2Lh1R4n/ecgEr65uPAWmXj8e7J6gEv4LzD8hrIf2p0mviZNiZmzG2W
+        e77ggk0Lbmv6a4QPu7zkIcVvfZP13kLwdGTFzMkbKCuZ24xBO6y3VYQmcf3QKWgWWoB4s+P1lOLnpxB9
+        IxAvKcUSvTbaaAMQ+Q/0pe9d4Jp/fAAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="guna2PictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -410,18 +402,26 @@ receive-side scaling (RSS) to enhance performance and reduce latency.</value>
 settings, ensuring consistent performance by preventing low-power states for 
 parameters like SelectiveSuspendOn and EnhancedPowerManagementEnabled.</value>
   </data>
-  <data name="guna2ImageButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="guna2PictureBox16.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DAAACwwBP0AiyAAAAdhJREFUWEftlr1Lw0AYxuv3F4qCo5MgDk4O7k7+B5laqF5qpYOTuIgQBUHE3KUZ
-        HDo4FqWr4qJQB6ntXcDPQXQQFzdBHERBie/Za7H2YoukaYf84KHhru/7PE3urgn4+PjUm9DmeQ/CbBkR
-        uqZo1+1i2HuQTsdVzG5UwuxvYTYnprwF6blphOlbMUg+zIqY9gZNs5tVQnFJiHqE4WsCTHfKQhTkVZho
-        wuoGswNpiIK8CBNbvxwAo4w0wA/BrkpMx09Horo1qGnpVlHuHmHjrB+2rSUzr0IvsMgfQBdwfQR9kiAT
-        tKRiS0EGHRU2lUEbJ73V3JH/CkJ9qgabFHbOzJu3HVBw/LuB+6IpYekMfHGrvLAGwuxeWDrDn7W02GXB
-        o3oWls4gwlZlxW4LwtwJS2f4SQuBdmUNXBVm28Lyb+Cga4Pke9Im7ug1QnJjwq4yYS3dCekPJY0qiL7D
-        unuE2iv4TMOPSsK4AdeLKqah2Tid4EeHsKkeBWe6oMF+uWGp+Ak8Q+hw0Mz2idLaoKRSLfz5ykIU5ekr
-        hG03we3WpUG4vH6f4cD/ygIYfzREGA4i1hRs/aeGCMOJmNkhvlMKYSKERsVUfcgfjrmgqlsxvsjFsI+P
-        TwMQCHwBGnJ90ePBHR4AAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAotJREFUWEftls1vDVEYxt8mTVV8lChBiI2vJYoF/wBigaVE00UTidgpC0KlRFg1
+        hIgNwloisWrra+M/EPwBSFgQ9ZkIr+e57zOZW3fm3jk3d9Okvze/ZO5zz9yZe86ZM8fmmF24rdQRj4fg
+        L/gNvoZT8BTcqBYdxG0XfA6/wF5l+2FZPYYDtXYdwe2Wfvg73KasG86DC+AmeADehp8g6y+8Brtr7ZNx
+        m68jHi+F5+EKJeW49cFL8AdksTeW6NuK8OJuL+CoknTctsO3MLuJhJ5wu6ET38PFStNxWwOzm7iqtAJu
+        R+FHuFtJ+7jtgD/hHxjzpxKcYJ3C7TJkTSkpwW0ZbL/LSUzCIX0KOAnzp2OD0gLczkHO3mNK0nDrgU8g
+        64TSwO2O8pNKCojZyjqipDpuXfCezn8H1+qbwO2gvptUUkA8v4/gOiXVcbsAWdNwi9KcWKxYb5Qk4nYG
+        Fo+f23Dtp91+wz1KZ+K2SG2mlSTgdlgnf4b7lAa8YFyYNay0kUo3EN3YOARx8gPI4vN8GnLMt0J2Oeui
+        WhdTaQjilcoaVJITF+SFeQOsh5CTjXUfdqllMW6H1HZCSQFuZyFXreNKGuEQxFBk9RT26Nty3O6q/YiS
+        Atz6YZ8+lcPJ6PZStn7TxUKU3XSThaieVkux20K4Wp+a43YFspp0fz3xWH2AnXgZ7YTZy6hxfSjE7Tpk
+        8XXcekjK4GqYT9RxpRXINyRjStKJf55dfBImbs1mbsn4hhuFy5WUExOOY84dc3bxxC3Z/7jd1I9xUxq7
+        3diU9kJOxs2QLxs+atls55iPwzY3pfXEtvwZ5KoXPeO2F5YV/3XFCZeC2yod8XgQspu/wldwAo7A9Wox
+        x2zA7B+17pVuINGMZAAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>This script implements a memory optimization tweak by disabling Windows Prefetch
+and Superfetch, which are designed to improve application load times. It also disables 
+memory compression through PowerShell to enhance overall system performance.</value>
   </data>
 </root>

@@ -41,6 +41,7 @@
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.welcomemsg = new System.Windows.Forms.Label();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.UpdateChecker = new Guna.UI2.WinForms.Guna2GradientButton();
             this.downloads = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -68,7 +69,6 @@
             this.TikTok = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2GradientPanel8 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.Twitter = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2GradientPanel2.SuspendLayout();
@@ -215,7 +215,7 @@
             this.guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel2.BorderRadius = 8;
             this.guna2GradientPanel2.BorderThickness = 2;
-            this.guna2GradientPanel2.Controls.Add(this.guna2GradientButton1);
+            this.guna2GradientPanel2.Controls.Add(this.UpdateChecker);
             this.guna2GradientPanel2.Controls.Add(this.downloads);
             this.guna2GradientPanel2.Controls.Add(this.label5);
             this.guna2GradientPanel2.Controls.Add(this.guna2PictureBox3);
@@ -226,6 +226,33 @@
             this.guna2GradientPanel2.Size = new System.Drawing.Size(384, 235);
             this.guna2GradientPanel2.TabIndex = 27;
             this.guna2GradientPanel2.UseTransparentBackground = true;
+            // 
+            // UpdateChecker
+            // 
+            this.UpdateChecker.Animated = true;
+            this.UpdateChecker.AutoRoundedCorners = true;
+            this.UpdateChecker.BackColor = System.Drawing.Color.Transparent;
+            this.UpdateChecker.BorderRadius = 15;
+            this.UpdateChecker.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.UpdateChecker.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.UpdateChecker.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.UpdateChecker.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.UpdateChecker.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.UpdateChecker.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.UpdateChecker.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(243)))));
+            this.UpdateChecker.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UpdateChecker.ForeColor = System.Drawing.Color.White;
+            this.UpdateChecker.Image = ((System.Drawing.Image)(resources.GetObject("UpdateChecker.Image")));
+            this.UpdateChecker.Location = new System.Drawing.Point(16, 183);
+            this.UpdateChecker.Name = "UpdateChecker";
+            this.UpdateChecker.ShadowDecoration.BorderRadius = 15;
+            this.UpdateChecker.ShadowDecoration.Enabled = true;
+            this.UpdateChecker.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.UpdateChecker.Size = new System.Drawing.Size(352, 32);
+            this.UpdateChecker.TabIndex = 29;
+            this.UpdateChecker.Text = "Version Checker";
+            this.UpdateChecker.TextOffset = new System.Drawing.Point(0, -1);
+            this.UpdateChecker.Click += new System.EventHandler(this.UpdateChecker_Click);
             // 
             // downloads
             // 
@@ -661,32 +688,6 @@
             this.Twitter.TabIndex = 134;
             this.Twitter.Click += new System.EventHandler(this.Twitter_Click);
             // 
-            // guna2GradientButton1
-            // 
-            this.guna2GradientButton1.Animated = true;
-            this.guna2GradientButton1.AutoRoundedCorners = true;
-            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.BorderRadius = 15;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(243)))));
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton1.Image")));
-            this.guna2GradientButton1.Location = new System.Drawing.Point(16, 183);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.ShadowDecoration.BorderRadius = 15;
-            this.guna2GradientButton1.ShadowDecoration.Enabled = true;
-            this.guna2GradientButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2GradientButton1.Size = new System.Drawing.Size(352, 32);
-            this.guna2GradientButton1.TabIndex = 29;
-            this.guna2GradientButton1.Text = "Version Checker";
-            this.guna2GradientButton1.TextOffset = new System.Drawing.Point(0, -1);
-            // 
             // Info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -764,6 +765,6 @@
         private Guna.UI2.WinForms.Guna2ImageButton SlatCC;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel4;
         private Guna.UI2.WinForms.Guna2ImageButton PayPal;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2GradientButton UpdateChecker;
     }
 }

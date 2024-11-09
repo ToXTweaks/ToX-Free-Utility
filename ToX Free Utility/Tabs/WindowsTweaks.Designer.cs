@@ -37,7 +37,7 @@
             this.guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.privacytweaksswitch = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.BasicPrivacy = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.privacytweakslabel = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -45,28 +45,28 @@
             this.label7 = new System.Windows.Forms.Label();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.label2 = new System.Windows.Forms.Label();
-            this.guna2ToggleSwitch2 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.DFeatures = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.label3 = new System.Windows.Forms.Label();
             this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
             this.label10 = new System.Windows.Forms.Label();
-            this.guna2ToggleSwitch3 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.GameBar = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.label11 = new System.Windows.Forms.Label();
             this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2PictureBox9 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.guna2Separator4 = new Guna.UI2.WinForms.Guna2Separator();
             this.label13 = new System.Windows.Forms.Label();
-            this.guna2ToggleSwitch4 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.BasicPerf = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.label14 = new System.Windows.Forms.Label();
             this.guna2GradientPanel5 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2PictureBox13 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label15 = new System.Windows.Forms.Label();
             this.guna2Separator5 = new Guna.UI2.WinForms.Guna2Separator();
             this.label16 = new System.Windows.Forms.Label();
-            this.guna2ToggleSwitch5 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.DCortana = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.label17 = new System.Windows.Forms.Label();
             this.guna2GradientPanel6 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -76,7 +76,7 @@
             this.label18 = new System.Windows.Forms.Label();
             this.guna2Separator6 = new Guna.UI2.WinForms.Guna2Separator();
             this.label19 = new System.Windows.Forms.Label();
-            this.guna2ToggleSwitch6 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.PowerPlan = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.label20 = new System.Windows.Forms.Label();
             this.guna2Separator7 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -139,7 +139,7 @@
             this.guna2GradientPanel1.Controls.Add(this.guna2Separator2);
             this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox4);
             this.guna2GradientPanel1.Controls.Add(this.label1);
-            this.guna2GradientPanel1.Controls.Add(this.privacytweaksswitch);
+            this.guna2GradientPanel1.Controls.Add(this.BasicPrivacy);
             this.guna2GradientPanel1.Controls.Add(this.privacytweakslabel);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -194,31 +194,33 @@
             this.label1.TabIndex = 28;
             this.label1.Text = resources.GetString("label1.Text");
             // 
-            // privacytweaksswitch
+            // BasicPrivacy
             // 
-            this.privacytweaksswitch.Animated = true;
-            this.privacytweaksswitch.BackColor = System.Drawing.Color.Transparent;
-            this.privacytweaksswitch.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.privacytweaksswitch.CheckedState.BorderRadius = 12;
-            this.privacytweaksswitch.CheckedState.BorderThickness = 2;
-            this.privacytweaksswitch.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.privacytweaksswitch.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.privacytweaksswitch.CheckedState.InnerBorderRadius = 8;
-            this.privacytweaksswitch.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.privacytweaksswitch.CheckedState.InnerOffset = 2;
-            this.privacytweaksswitch.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.privacytweaksswitch.Location = new System.Drawing.Point(472, 14);
-            this.privacytweaksswitch.Name = "privacytweaksswitch";
-            this.privacytweaksswitch.Size = new System.Drawing.Size(48, 27);
-            this.privacytweaksswitch.TabIndex = 105;
-            this.privacytweaksswitch.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.privacytweaksswitch.UncheckedState.BorderRadius = 12;
-            this.privacytweaksswitch.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.privacytweaksswitch.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.privacytweaksswitch.UncheckedState.InnerBorderRadius = 8;
-            this.privacytweaksswitch.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.privacytweaksswitch.UncheckedState.InnerOffset = 2;
-            this.privacytweaksswitch.UseTransparentBackground = true;
+            this.BasicPrivacy.Animated = true;
+            this.BasicPrivacy.BackColor = System.Drawing.Color.Transparent;
+            this.BasicPrivacy.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.BasicPrivacy.CheckedState.BorderRadius = 12;
+            this.BasicPrivacy.CheckedState.BorderThickness = 2;
+            this.BasicPrivacy.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.BasicPrivacy.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.BasicPrivacy.CheckedState.InnerBorderRadius = 8;
+            this.BasicPrivacy.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.BasicPrivacy.CheckedState.InnerOffset = 2;
+            this.BasicPrivacy.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BasicPrivacy.Location = new System.Drawing.Point(472, 14);
+            this.BasicPrivacy.Name = "BasicPrivacy";
+            this.BasicPrivacy.Size = new System.Drawing.Size(48, 27);
+            this.BasicPrivacy.TabIndex = 105;
+            this.BasicPrivacy.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.BasicPrivacy.UncheckedState.BorderRadius = 12;
+            this.BasicPrivacy.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BasicPrivacy.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.BasicPrivacy.UncheckedState.InnerBorderRadius = 8;
+            this.BasicPrivacy.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.BasicPrivacy.UncheckedState.InnerOffset = 2;
+            this.BasicPrivacy.UseTransparentBackground = true;
+            this.BasicPrivacy.CheckedChanged += new System.EventHandler(this.BasicPrivacy_CheckedChanged);
+            this.BasicPrivacy.Click += new System.EventHandler(this.BasicPrivacy_Click);
             // 
             // privacytweakslabel
             // 
@@ -251,7 +253,7 @@
             this.guna2GradientPanel2.Controls.Add(this.label7);
             this.guna2GradientPanel2.Controls.Add(this.guna2Separator1);
             this.guna2GradientPanel2.Controls.Add(this.label2);
-            this.guna2GradientPanel2.Controls.Add(this.guna2ToggleSwitch2);
+            this.guna2GradientPanel2.Controls.Add(this.DFeatures);
             this.guna2GradientPanel2.Controls.Add(this.label3);
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -306,31 +308,33 @@
             this.label2.TabIndex = 28;
             this.label2.Text = resources.GetString("label2.Text");
             // 
-            // guna2ToggleSwitch2
+            // DFeatures
             // 
-            this.guna2ToggleSwitch2.Animated = true;
-            this.guna2ToggleSwitch2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ToggleSwitch2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2ToggleSwitch2.CheckedState.BorderRadius = 12;
-            this.guna2ToggleSwitch2.CheckedState.BorderThickness = 2;
-            this.guna2ToggleSwitch2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2ToggleSwitch2.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch2.CheckedState.InnerBorderRadius = 8;
-            this.guna2ToggleSwitch2.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch2.CheckedState.InnerOffset = 2;
-            this.guna2ToggleSwitch2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ToggleSwitch2.Location = new System.Drawing.Point(472, 14);
-            this.guna2ToggleSwitch2.Name = "guna2ToggleSwitch2";
-            this.guna2ToggleSwitch2.Size = new System.Drawing.Size(48, 27);
-            this.guna2ToggleSwitch2.TabIndex = 105;
-            this.guna2ToggleSwitch2.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2ToggleSwitch2.UncheckedState.BorderRadius = 12;
-            this.guna2ToggleSwitch2.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.guna2ToggleSwitch2.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch2.UncheckedState.InnerBorderRadius = 8;
-            this.guna2ToggleSwitch2.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch2.UncheckedState.InnerOffset = 2;
-            this.guna2ToggleSwitch2.UseTransparentBackground = true;
+            this.DFeatures.Animated = true;
+            this.DFeatures.BackColor = System.Drawing.Color.Transparent;
+            this.DFeatures.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.DFeatures.CheckedState.BorderRadius = 12;
+            this.DFeatures.CheckedState.BorderThickness = 2;
+            this.DFeatures.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.DFeatures.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.DFeatures.CheckedState.InnerBorderRadius = 8;
+            this.DFeatures.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.DFeatures.CheckedState.InnerOffset = 2;
+            this.DFeatures.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DFeatures.Location = new System.Drawing.Point(472, 14);
+            this.DFeatures.Name = "DFeatures";
+            this.DFeatures.Size = new System.Drawing.Size(48, 27);
+            this.DFeatures.TabIndex = 105;
+            this.DFeatures.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.DFeatures.UncheckedState.BorderRadius = 12;
+            this.DFeatures.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.DFeatures.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.DFeatures.UncheckedState.InnerBorderRadius = 8;
+            this.DFeatures.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.DFeatures.UncheckedState.InnerOffset = 2;
+            this.DFeatures.UseTransparentBackground = true;
+            this.DFeatures.CheckedChanged += new System.EventHandler(this.DFeatures_CheckedChanged);
+            this.DFeatures.Click += new System.EventHandler(this.DFeatures_Click);
             // 
             // label3
             // 
@@ -352,7 +356,7 @@
             this.guna2GradientPanel3.Controls.Add(this.label9);
             this.guna2GradientPanel3.Controls.Add(this.guna2Separator3);
             this.guna2GradientPanel3.Controls.Add(this.label10);
-            this.guna2GradientPanel3.Controls.Add(this.guna2ToggleSwitch3);
+            this.guna2GradientPanel3.Controls.Add(this.GameBar);
             this.guna2GradientPanel3.Controls.Add(this.label11);
             this.guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -408,31 +412,33 @@
             this.label10.Text = "Disabling Game Bar and Game DVR, reduces background resource usage,\r\nhelping to i" +
     "mprove system performance and reduce input lag during gaming.";
             // 
-            // guna2ToggleSwitch3
+            // GameBar
             // 
-            this.guna2ToggleSwitch3.Animated = true;
-            this.guna2ToggleSwitch3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ToggleSwitch3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2ToggleSwitch3.CheckedState.BorderRadius = 12;
-            this.guna2ToggleSwitch3.CheckedState.BorderThickness = 2;
-            this.guna2ToggleSwitch3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2ToggleSwitch3.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch3.CheckedState.InnerBorderRadius = 8;
-            this.guna2ToggleSwitch3.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch3.CheckedState.InnerOffset = 2;
-            this.guna2ToggleSwitch3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ToggleSwitch3.Location = new System.Drawing.Point(472, 14);
-            this.guna2ToggleSwitch3.Name = "guna2ToggleSwitch3";
-            this.guna2ToggleSwitch3.Size = new System.Drawing.Size(48, 27);
-            this.guna2ToggleSwitch3.TabIndex = 105;
-            this.guna2ToggleSwitch3.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2ToggleSwitch3.UncheckedState.BorderRadius = 12;
-            this.guna2ToggleSwitch3.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.guna2ToggleSwitch3.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch3.UncheckedState.InnerBorderRadius = 8;
-            this.guna2ToggleSwitch3.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch3.UncheckedState.InnerOffset = 2;
-            this.guna2ToggleSwitch3.UseTransparentBackground = true;
+            this.GameBar.Animated = true;
+            this.GameBar.BackColor = System.Drawing.Color.Transparent;
+            this.GameBar.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.GameBar.CheckedState.BorderRadius = 12;
+            this.GameBar.CheckedState.BorderThickness = 2;
+            this.GameBar.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.GameBar.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.GameBar.CheckedState.InnerBorderRadius = 8;
+            this.GameBar.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.GameBar.CheckedState.InnerOffset = 2;
+            this.GameBar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GameBar.Location = new System.Drawing.Point(472, 14);
+            this.GameBar.Name = "GameBar";
+            this.GameBar.Size = new System.Drawing.Size(48, 27);
+            this.GameBar.TabIndex = 105;
+            this.GameBar.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.GameBar.UncheckedState.BorderRadius = 12;
+            this.GameBar.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.GameBar.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.GameBar.UncheckedState.InnerBorderRadius = 8;
+            this.GameBar.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.GameBar.UncheckedState.InnerOffset = 2;
+            this.GameBar.UseTransparentBackground = true;
+            this.GameBar.CheckedChanged += new System.EventHandler(this.GameBar_CheckedChanged);
+            this.GameBar.Click += new System.EventHandler(this.GameBar_Click);
             // 
             // label11
             // 
@@ -454,7 +460,7 @@
             this.guna2GradientPanel4.Controls.Add(this.label12);
             this.guna2GradientPanel4.Controls.Add(this.guna2Separator4);
             this.guna2GradientPanel4.Controls.Add(this.label13);
-            this.guna2GradientPanel4.Controls.Add(this.guna2ToggleSwitch4);
+            this.guna2GradientPanel4.Controls.Add(this.BasicPerf);
             this.guna2GradientPanel4.Controls.Add(this.label14);
             this.guna2GradientPanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.guna2GradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -511,31 +517,33 @@
     "sabling power throttling and variable refresh rate to optimize system \r\nresponsi" +
     "veness and resource allocation.\r\n";
             // 
-            // guna2ToggleSwitch4
+            // BasicPerf
             // 
-            this.guna2ToggleSwitch4.Animated = true;
-            this.guna2ToggleSwitch4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ToggleSwitch4.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2ToggleSwitch4.CheckedState.BorderRadius = 12;
-            this.guna2ToggleSwitch4.CheckedState.BorderThickness = 2;
-            this.guna2ToggleSwitch4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2ToggleSwitch4.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch4.CheckedState.InnerBorderRadius = 8;
-            this.guna2ToggleSwitch4.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch4.CheckedState.InnerOffset = 2;
-            this.guna2ToggleSwitch4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ToggleSwitch4.Location = new System.Drawing.Point(472, 14);
-            this.guna2ToggleSwitch4.Name = "guna2ToggleSwitch4";
-            this.guna2ToggleSwitch4.Size = new System.Drawing.Size(48, 27);
-            this.guna2ToggleSwitch4.TabIndex = 105;
-            this.guna2ToggleSwitch4.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2ToggleSwitch4.UncheckedState.BorderRadius = 12;
-            this.guna2ToggleSwitch4.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.guna2ToggleSwitch4.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch4.UncheckedState.InnerBorderRadius = 8;
-            this.guna2ToggleSwitch4.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch4.UncheckedState.InnerOffset = 2;
-            this.guna2ToggleSwitch4.UseTransparentBackground = true;
+            this.BasicPerf.Animated = true;
+            this.BasicPerf.BackColor = System.Drawing.Color.Transparent;
+            this.BasicPerf.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.BasicPerf.CheckedState.BorderRadius = 12;
+            this.BasicPerf.CheckedState.BorderThickness = 2;
+            this.BasicPerf.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.BasicPerf.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.BasicPerf.CheckedState.InnerBorderRadius = 8;
+            this.BasicPerf.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.BasicPerf.CheckedState.InnerOffset = 2;
+            this.BasicPerf.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BasicPerf.Location = new System.Drawing.Point(472, 14);
+            this.BasicPerf.Name = "BasicPerf";
+            this.BasicPerf.Size = new System.Drawing.Size(48, 27);
+            this.BasicPerf.TabIndex = 105;
+            this.BasicPerf.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.BasicPerf.UncheckedState.BorderRadius = 12;
+            this.BasicPerf.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.BasicPerf.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.BasicPerf.UncheckedState.InnerBorderRadius = 8;
+            this.BasicPerf.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.BasicPerf.UncheckedState.InnerOffset = 2;
+            this.BasicPerf.UseTransparentBackground = true;
+            this.BasicPerf.CheckedChanged += new System.EventHandler(this.BasicPerf_CheckedChanged);
+            this.BasicPerf.Click += new System.EventHandler(this.BasicPerf_Click);
             // 
             // label14
             // 
@@ -557,7 +565,7 @@
             this.guna2GradientPanel5.Controls.Add(this.label15);
             this.guna2GradientPanel5.Controls.Add(this.guna2Separator5);
             this.guna2GradientPanel5.Controls.Add(this.label16);
-            this.guna2GradientPanel5.Controls.Add(this.guna2ToggleSwitch5);
+            this.guna2GradientPanel5.Controls.Add(this.DCortana);
             this.guna2GradientPanel5.Controls.Add(this.label17);
             this.guna2GradientPanel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.guna2GradientPanel5.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -612,31 +620,33 @@
             this.label16.TabIndex = 28;
             this.label16.Text = resources.GetString("label16.Text");
             // 
-            // guna2ToggleSwitch5
+            // DCortana
             // 
-            this.guna2ToggleSwitch5.Animated = true;
-            this.guna2ToggleSwitch5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ToggleSwitch5.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2ToggleSwitch5.CheckedState.BorderRadius = 12;
-            this.guna2ToggleSwitch5.CheckedState.BorderThickness = 2;
-            this.guna2ToggleSwitch5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2ToggleSwitch5.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch5.CheckedState.InnerBorderRadius = 8;
-            this.guna2ToggleSwitch5.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch5.CheckedState.InnerOffset = 2;
-            this.guna2ToggleSwitch5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ToggleSwitch5.Location = new System.Drawing.Point(472, 14);
-            this.guna2ToggleSwitch5.Name = "guna2ToggleSwitch5";
-            this.guna2ToggleSwitch5.Size = new System.Drawing.Size(48, 27);
-            this.guna2ToggleSwitch5.TabIndex = 105;
-            this.guna2ToggleSwitch5.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2ToggleSwitch5.UncheckedState.BorderRadius = 12;
-            this.guna2ToggleSwitch5.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.guna2ToggleSwitch5.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch5.UncheckedState.InnerBorderRadius = 8;
-            this.guna2ToggleSwitch5.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch5.UncheckedState.InnerOffset = 2;
-            this.guna2ToggleSwitch5.UseTransparentBackground = true;
+            this.DCortana.Animated = true;
+            this.DCortana.BackColor = System.Drawing.Color.Transparent;
+            this.DCortana.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.DCortana.CheckedState.BorderRadius = 12;
+            this.DCortana.CheckedState.BorderThickness = 2;
+            this.DCortana.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.DCortana.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.DCortana.CheckedState.InnerBorderRadius = 8;
+            this.DCortana.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.DCortana.CheckedState.InnerOffset = 2;
+            this.DCortana.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DCortana.Location = new System.Drawing.Point(472, 14);
+            this.DCortana.Name = "DCortana";
+            this.DCortana.Size = new System.Drawing.Size(48, 27);
+            this.DCortana.TabIndex = 105;
+            this.DCortana.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.DCortana.UncheckedState.BorderRadius = 12;
+            this.DCortana.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.DCortana.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.DCortana.UncheckedState.InnerBorderRadius = 8;
+            this.DCortana.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.DCortana.UncheckedState.InnerOffset = 2;
+            this.DCortana.UseTransparentBackground = true;
+            this.DCortana.CheckedChanged += new System.EventHandler(this.DCortana_CheckedChanged);
+            this.DCortana.Click += new System.EventHandler(this.DCortana_Click);
             // 
             // label17
             // 
@@ -661,7 +671,7 @@
             this.guna2GradientPanel6.Controls.Add(this.label18);
             this.guna2GradientPanel6.Controls.Add(this.guna2Separator6);
             this.guna2GradientPanel6.Controls.Add(this.label19);
-            this.guna2GradientPanel6.Controls.Add(this.guna2ToggleSwitch6);
+            this.guna2GradientPanel6.Controls.Add(this.PowerPlan);
             this.guna2GradientPanel6.Controls.Add(this.label20);
             this.guna2GradientPanel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.guna2GradientPanel6.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -752,31 +762,33 @@
     "s, \r\nenhances performance, reduces latency and boosts overall PC\'s Responsivness" +
     "";
             // 
-            // guna2ToggleSwitch6
+            // PowerPlan
             // 
-            this.guna2ToggleSwitch6.Animated = true;
-            this.guna2ToggleSwitch6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ToggleSwitch6.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2ToggleSwitch6.CheckedState.BorderRadius = 12;
-            this.guna2ToggleSwitch6.CheckedState.BorderThickness = 2;
-            this.guna2ToggleSwitch6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2ToggleSwitch6.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch6.CheckedState.InnerBorderRadius = 8;
-            this.guna2ToggleSwitch6.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch6.CheckedState.InnerOffset = 2;
-            this.guna2ToggleSwitch6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ToggleSwitch6.Location = new System.Drawing.Point(472, 14);
-            this.guna2ToggleSwitch6.Name = "guna2ToggleSwitch6";
-            this.guna2ToggleSwitch6.Size = new System.Drawing.Size(48, 27);
-            this.guna2ToggleSwitch6.TabIndex = 105;
-            this.guna2ToggleSwitch6.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2ToggleSwitch6.UncheckedState.BorderRadius = 12;
-            this.guna2ToggleSwitch6.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.guna2ToggleSwitch6.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch6.UncheckedState.InnerBorderRadius = 8;
-            this.guna2ToggleSwitch6.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.guna2ToggleSwitch6.UncheckedState.InnerOffset = 2;
-            this.guna2ToggleSwitch6.UseTransparentBackground = true;
+            this.PowerPlan.Animated = true;
+            this.PowerPlan.BackColor = System.Drawing.Color.Transparent;
+            this.PowerPlan.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.PowerPlan.CheckedState.BorderRadius = 12;
+            this.PowerPlan.CheckedState.BorderThickness = 2;
+            this.PowerPlan.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.PowerPlan.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.PowerPlan.CheckedState.InnerBorderRadius = 8;
+            this.PowerPlan.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.PowerPlan.CheckedState.InnerOffset = 2;
+            this.PowerPlan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PowerPlan.Location = new System.Drawing.Point(472, 14);
+            this.PowerPlan.Name = "PowerPlan";
+            this.PowerPlan.Size = new System.Drawing.Size(48, 27);
+            this.PowerPlan.TabIndex = 105;
+            this.PowerPlan.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.PowerPlan.UncheckedState.BorderRadius = 12;
+            this.PowerPlan.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.PowerPlan.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.PowerPlan.UncheckedState.InnerBorderRadius = 8;
+            this.PowerPlan.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.PowerPlan.UncheckedState.InnerOffset = 2;
+            this.PowerPlan.UseTransparentBackground = true;
+            this.PowerPlan.CheckedChanged += new System.EventHandler(this.PowerPlan_CheckedChanged);
+            this.PowerPlan.Click += new System.EventHandler(this.PowerPlan_Click);
             // 
             // label20
             // 
@@ -930,7 +942,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "WindowsTweaks";
             this.Text = "ToX Free Utility";
-            this.Load += new System.EventHandler(this.WindowsTweaks_Load);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
@@ -967,12 +978,12 @@
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private System.Windows.Forms.Label privacytweakslabel;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch privacytweaksswitch;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch BasicPrivacy;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label8;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch guna2ToggleSwitch2;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch DFeatures;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
@@ -982,22 +993,22 @@
         private Guna.UI2.WinForms.Guna2Separator guna2Separator3;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox6;
         private System.Windows.Forms.Label label10;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch guna2ToggleSwitch3;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch GameBar;
         private System.Windows.Forms.Label label11;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel4;
         private System.Windows.Forms.Label label12;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox9;
         private System.Windows.Forms.Label label13;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch guna2ToggleSwitch4;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch BasicPerf;
         private System.Windows.Forms.Label label14;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel5;
         private System.Windows.Forms.Label label16;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch guna2ToggleSwitch5;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch DCortana;
         private System.Windows.Forms.Label label17;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel6;
         private System.Windows.Forms.Label label19;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch guna2ToggleSwitch6;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch PowerPlan;
         private System.Windows.Forms.Label label20;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox5;
         private System.Windows.Forms.Label label7;

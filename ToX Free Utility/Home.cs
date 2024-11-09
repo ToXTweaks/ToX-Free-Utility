@@ -1,12 +1,10 @@
-﻿using Guna.UI2.WinForms;
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.IO;
 using System.Management;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using System.Web.UI.WebControls;
 using System.Windows.Forms;
 
 namespace ToX_Free_Utility
@@ -24,7 +22,7 @@ namespace ToX_Free_Utility
         {
             InitializeComponent();
             InitializeComponents();
-
+            UsedOptimization();
             // Initialize performance counters
             InitializePerformanceCounters();
 
@@ -38,9 +36,52 @@ namespace ToX_Free_Utility
 
             // Load system information asynchronously
             LoadSystemInfoAsync();
-            welcomemsg.Text = "Welcome, " +Environment.UserName;
+            welcomemsg.Text = "Welcome, " + Environment.UserName;
             guna2Separator1.Width = welcomemsg.Width - 12;
         }
+        private void UsedOptimization()
+        {
+            int checkedCount = 0;
+
+            if (Properties.Settings.Default.KBOpti == true) checkedCount++;
+            if (Properties.Settings.Default.KBDelay == true) checkedCount++;
+            if (Properties.Settings.Default.KBRate == true) checkedCount++;
+            if (Properties.Settings.Default.KBDQS == true) checkedCount++;
+            if (Properties.Settings.Default.MOpti == true) checkedCount++;
+            if (Properties.Settings.Default.M1_1 == true) checkedCount++;
+            if (Properties.Settings.Default.MAcc == true) checkedCount++;
+            if (Properties.Settings.Default.MDQS == true) checkedCount++;
+            if (Properties.Settings.Default.GeneralNvidia == true) checkedCount++;
+            if (Properties.Settings.Default.NvHidden == true) checkedCount++;
+            if (Properties.Settings.Default.NviPstate == true) checkedCount++;
+            if (Properties.Settings.Default.NIP == true) checkedCount++;
+            if (Properties.Settings.Default.GeneralAMD == true) checkedCount++;
+            if (Properties.Settings.Default.AMDHidden == true) checkedCount++;
+            if (Properties.Settings.Default.AMDPStates == true) checkedCount++;
+            if (Properties.Settings.Default.AmdSC == true) checkedCount++;
+            if (Properties.Settings.Default.BasicPrivacy == true) checkedCount++;
+            if (Properties.Settings.Default.BasicPerf == true) checkedCount++;
+            if (Properties.Settings.Default.GameBar == true) checkedCount++;
+            if (Properties.Settings.Default.DFeatures == true) checkedCount++;
+            if (Properties.Settings.Default.PowerPlan == true) checkedCount++;
+            if (Properties.Settings.Default.DCortana == true) checkedCount++;
+            if (Properties.Settings.Default.TweakCSRSS == true) checkedCount++;
+            if (Properties.Settings.Default.TweakMMCSS == true) checkedCount++;
+            if (Properties.Settings.Default.DisableDefender == true) checkedCount++;
+            if (Properties.Settings.Default.FixJPEG == true) checkedCount++;
+            if (Properties.Settings.Default.BasicServices == true) checkedCount++;
+            if (Properties.Settings.Default.MicrosoftEdge == true) checkedCount++;
+            if (Properties.Settings.Default.BCDedit == true) checkedCount++;
+            if (Properties.Settings.Default.USBPSavings == true) checkedCount++;
+            if (Properties.Settings.Default.SetSVCHost == true) checkedCount++;
+            if (Properties.Settings.Default.Network == true) checkedCount++;
+            if (Properties.Settings.Default.Memory == true) checkedCount++;
+            if (Properties.Settings.Default.DUAC == true) checkedCount++;
+
+            Optis.Text = "Used Optimizations: " + checkedCount.ToString() + "/34";
+        }
+
+
 
         private void InitializePerformanceCounters()
         {
@@ -368,7 +409,7 @@ namespace ToX_Free_Utility
 
         private void Home_Load(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

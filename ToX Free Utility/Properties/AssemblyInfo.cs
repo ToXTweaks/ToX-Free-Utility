@@ -1,16 +1,15 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ToX Free Utility")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Free Windows Optimizer & Game Booster by ToX Tweaks © 2024 | discord.gg/toxtweaks")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("https://dsc.gg/kernelos")]
+[assembly: AssemblyCompany("https://toxtweaks.com/")]
 [assembly: AssemblyProduct("ToX Free Utility")]
-[assembly: AssemblyCopyright("Copyright © https://dsc.gg/kernelos 2024")]
+[assembly: AssemblyCopyright("Copyright © ToX Tweaks 2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,5 +28,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("2.0.0.0")]
+[assembly: AssemblyFileVersion("2.0.0.0")]

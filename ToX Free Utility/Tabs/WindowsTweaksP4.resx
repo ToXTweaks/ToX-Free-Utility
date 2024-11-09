@@ -124,7 +124,7 @@
   <data name="guna2PictureBox26.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAAAshJREFUaEPtmDtrFFEYhjdGjK1GECTe0gW8X2rxB1jGGykSvHRWFqJYCZoigrZC
+        DQAACw0B7QfALAAAAshJREFUaEPtmDtrFFEYhjdGjK1GECTe0gW8X2rxB1jGGykSvHRWFqJYCZoigrZC
         EDGiSRRrRaztBGujtaU3REVdn3fm27AsrnNuM7PFPPDgcOZ87zkn7sycmVZDQ0N62u32ehzHPaaOR+z0
         4MHkNuE5fIjv8Tf2orZ3qD5ncdTK64NJHMbH+AN9UY1qD1pcdTDoNnyKqXiCYxZfLgw0hV80amI+4ykb
         Jj2Er8HbGqlkbuKQDZsGAjX5e0qviLuYbhGE3cpiq2XOho+DoBN5Xi1M2TTCIEB3mzIuWFc+YfjdieKU
@@ -154,7 +154,7 @@
   <data name="guna2PictureBox23.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAAA8NJREFUaEPtmbtrFFEUxpf4wqiNDyyMWqhF0NYQESuxEwRBE7QXCyVYSGIsIsrO
+        DQAACw0B7QfALAAAA8NJREFUaEPtmbtrFFEUxpf4wqiNDyyMWqhF0NYQESuxEwRBE7QXCyVYSGIsIsrO
         brIJsiQhWfwPNoiFxkI70wsGxUIboyKYrIiKbBSNvwMnYZzc2bl3ZnbT7AcfMzv3nO+ce3JfM8k00UQT
         yVEul9cNDQ0dGxwc7If38/n8K65fuP4Syj18KW2wn2edAwMDLeq+dhgeHt5LMoIPJLbkyPcwh2+byjUO
         2Wx2F4FLJLDoSyguF9GaoBg7Vb6+INgFWDEkkpQL6HZrmPRRKpU2EOCeIXDanJRYGjYdMOFaEX4cCFQ3
@@ -373,11 +373,6 @@ receive-side scaling (RSS) to enhance performance and reduce latency.</value>
         ZlvxgUPcfVvSYZBWB9uKD+dtdwB0+YRujup/KdyMJh006bO4q12LQN/kWalO0RoFl22F+kHU+oWTwiL9
         30r7JlKpvzkZqOtQoGEFAAAAAElFTkSuQmCC
 </value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>This tweak applies a set of memory optimization tweaks by modifying several
-registry values to manage system memory usage, disable prefetch and 
-superfetch, and adjust cache settings for better performance.</value>
   </data>
   <data name="guna2PictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -7,7 +8,6 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Guna.UI2.WinForms;
 using ToX_Free_Utility.LoadingForms;
 
 namespace ToX_Free_Utility.Tabs
@@ -261,7 +261,7 @@ namespace ToX_Free_Utility.Tabs
                         {
                             try
                             {
-                                ClearDirectory(dir); 
+                                ClearDirectory(dir);
                             }
                             catch (UnauthorizedAccessException)
                             {
@@ -530,7 +530,7 @@ namespace ToX_Free_Utility.Tabs
 
         private void ApplyAll1_Click(object sender, EventArgs e)
         {
-            var checkboxes = new[] { bingbutton, xboxbutton, wphonebutton, walarmbutton, m3dbutton, wmapsbutton, builderbutton, wsoundbutton, medgebutton, wcamerabutton};
+            var checkboxes = new[] { bingbutton, xboxbutton, wphonebutton, walarmbutton, m3dbutton, wmapsbutton, builderbutton, wsoundbutton, medgebutton, wcamerabutton };
 
             bool allChecked = checkboxes.All(cb => cb.Checked); // Check if all are checked 
 

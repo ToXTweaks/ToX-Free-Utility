@@ -186,9 +186,9 @@
             this.label1.ForeColor = System.Drawing.Color.Gainsboro;
             this.label1.Location = new System.Drawing.Point(10, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(465, 54);
+            this.label1.Size = new System.Drawing.Size(132, 18);
             this.label1.TabIndex = 28;
-            this.label1.Text = resources.GetString("label1.Text");
+            this.label1.Text = "Working on this page";
             // 
             // guna2ToggleSwitch1
             // 
@@ -223,9 +223,9 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(8, 14);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(258, 26);
+            this.label5.Size = new System.Drawing.Size(57, 26);
             this.label5.TabIndex = 1;
-            this.label5.Text = "Basic Memory Optimization";
+            this.label5.Text = "Soon";
             // 
             // label8
             // 

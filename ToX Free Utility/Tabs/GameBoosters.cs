@@ -91,7 +91,7 @@ namespace ToX_Free_Utility.Tabs
 
                 // Center the loading form on MainPanel within Main
                 CenterForm(loadingForm, mainForm.MainPanel);
-                
+
                 // Simulate some delay (e.g., applying tweaks)
                 await Task.Delay(2000);
 
@@ -206,7 +206,7 @@ namespace ToX_Free_Utility.Tabs
 
             // Center the loading form on MainPanel within Main
             CenterForm(loadingForm, mainForm.MainPanel);
-            
+
             // Simulate some delay (e.g., applying tweaks)
             await Task.Delay(2000);
 
@@ -299,7 +299,7 @@ namespace ToX_Free_Utility.Tabs
 
             // Center the loading form on MainPanel within Main
             CenterForm(loadingForm, mainForm.MainPanel);
-            
+
             // Simulate some delay (e.g., applying tweaks)
             await Task.Delay(2000);
 
@@ -386,7 +386,7 @@ namespace ToX_Free_Utility.Tabs
 
             // Center the loading form on MainPanel within Main
             CenterForm(loadingForm, mainForm.MainPanel);
-            
+
             // Simulate some delay (e.g., applying tweaks)
             await Task.Delay(2000);
 
@@ -473,7 +473,7 @@ namespace ToX_Free_Utility.Tabs
 
             // Center the loading form on MainPanel within Main
             CenterForm(loadingForm, mainForm.MainPanel);
-            
+
             // Simulate some delay (e.g., applying tweaks)
             await Task.Delay(2000);
 

@@ -4,7 +4,6 @@ using System.Diagnostics;
 using System.IO;
 using System.Net.Http;
 using System.Reflection;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ToX_Free_Utility
@@ -151,6 +150,50 @@ namespace ToX_Free_Utility
         {
             downloads.Left = ((guna2GradientPanel2.Width - downloads.Width) / 2) + 2;
             downloads.Top = ((guna2GradientPanel2.Height - downloads.Height) / 2) + 24;
+        }
+
+        private static readonly HttpClient client = new HttpClient();
+
+        private async void UpdateChecker_Click(object sender, EventArgs e)
+        {
+            string currentVersion = "2.0";
+            string apiUrl = "https://api.github.com/repos/ToXTweaks/ToX-Free-Utility/releases/latest";
+
+            try
+            {
+                client.DefaultRequestHeaders.UserAgent.ParseAdd("request");
+
+                HttpResponseMessage response = await client.GetAsync(apiUrl);
+                response.EnsureSuccessStatusCode();
+
+                string responseBody = await response.Content.ReadAsStringAsync();
+                JObject json = JObject.Parse(responseBody);
+
+                string latestVersionTag = json["tag_name"].Value<string>();
+                string latestVersion = latestVersionTag.StartsWith("v") ? latestVersionTag.Substring(1) : latestVersionTag;
+
+                if (new Version(latestVersion) > new Version(currentVersion))
+                {
+                    DialogResult dialogResult = MessageBox.Show(
+                        $"A new version ({latestVersion}) is available! Do you want to download it?",
+                        "Update Available",
+                        MessageBoxButtons.YesNo,
+                        MessageBoxIcon.Information);
+
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        OpenLink(json["html_url"].Value<string>());
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("You are using the latest version.", "Up to Date", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error checking for updates: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

@@ -34,7 +34,7 @@
             this.welcomemsg = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Optis = new System.Windows.Forms.Label();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -140,7 +140,7 @@
             this.guna2GradientPanel1.BorderRadius = 8;
             this.guna2GradientPanel1.BorderThickness = 2;
             this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox1);
-            this.guna2GradientPanel1.Controls.Add(this.label1);
+            this.guna2GradientPanel1.Controls.Add(this.Optis);
             this.guna2GradientPanel1.Controls.Add(this.guna2Separator1);
             this.guna2GradientPanel1.Controls.Add(this.welcomemsg);
             this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox2);
@@ -167,16 +167,16 @@
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.UseTransparentBackground = true;
             // 
-            // label1
+            // Optis
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Franklin Gothic Medium", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label1.Location = new System.Drawing.Point(51, 89);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(231, 24);
-            this.label1.TabIndex = 22;
-            this.label1.Text = "Used Optimizations: 10/50";
+            this.Optis.AutoSize = true;
+            this.Optis.Font = new System.Drawing.Font("Franklin Gothic Medium", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Optis.ForeColor = System.Drawing.Color.Gainsboro;
+            this.Optis.Location = new System.Drawing.Point(51, 89);
+            this.Optis.Name = "Optis";
+            this.Optis.Size = new System.Drawing.Size(231, 24);
+            this.Optis.TabIndex = 22;
+            this.Optis.Text = "Used Optimizations: 10/50";
             // 
             // guna2Separator1
             // 
@@ -396,7 +396,7 @@
             this.guna2VScrollBar1.HighlightOnWheel = true;
             this.guna2VScrollBar1.InUpdate = false;
             this.guna2VScrollBar1.Location = new System.Drawing.Point(317, 48);
-            this.guna2VScrollBar1.Maximum = 13;
+            this.guna2VScrollBar1.Maximum = 5;
             this.guna2VScrollBar1.Name = "guna2VScrollBar1";
             this.guna2VScrollBar1.ScrollbarSize = 18;
             this.guna2VScrollBar1.Size = new System.Drawing.Size(18, 115);
@@ -426,7 +426,7 @@
             " • Improved Game Booster",
             " • Improved Windows Tweaks",
             " • Improved CPU Tweaks",
-            " •  Improved Debloat",
+            " • Improved Debloat",
             " • Added Discord RPC"});
             this.listBox1.Location = new System.Drawing.Point(15, 48);
             this.listBox1.Name = "listBox1";
@@ -998,7 +998,7 @@
         private System.Windows.Forms.Label labelProcessCount;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Optis;
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox7;
         private System.Windows.Forms.Label label7;
