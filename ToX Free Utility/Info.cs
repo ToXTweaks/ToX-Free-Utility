@@ -15,7 +15,7 @@ namespace ToX_Free_Utility
         {
             InitializeComponent();
             InitializeComponents();
-            FetchMemberCount();
+            FetchDownloadCount();
             CenterLabel();
         }
 
@@ -23,23 +23,27 @@ namespace ToX_Free_Utility
         {
             string discordInviteUrlApp = $"discord:/invite/{inviteCode}";
             string discordInviteUrl = $"https://discord.com/invite/{inviteCode}";
-
-            try
+            Process.Start(new ProcessStartInfo
             {
-                Process.Start(new ProcessStartInfo
-                {
-                    FileName = discordInviteUrlApp,
-                    UseShellExecute = true
-                });
-            }
-            catch (Exception ex)
-            {
-                Process.Start(new ProcessStartInfo
-                {
-                    FileName = discordInviteUrl,
-                    UseShellExecute = true
-                });
-            }
+                FileName = discordInviteUrl,
+                UseShellExecute = true
+            });
+            //try
+            //{
+            //    Process.Start(new ProcessStartInfo
+            //    {
+            //        FileName = discordInviteUrlApp,
+            //        UseShellExecute = true
+            //    });
+            //}
+            //catch (Exception ex)
+            //{
+            //    Process.Start(new ProcessStartInfo
+            //    {
+            //        FileName = discordInviteUrl,
+            //        UseShellExecute = true
+            //    });
+            //}
         }
         #region -
         public void InitializeComponents()
@@ -121,24 +125,39 @@ namespace ToX_Free_Utility
 
         private void PayPal_Click(object sender, EventArgs e)
         {
-            OpenLink("https://www.paypal.com/paypalme/toxtweaks");
+            MessageBox.Show("Soon");
         }
-        private async void FetchMemberCount()
+        private async void FetchDownloadCount()
         {
-            string inviteCode = "toxtweaks";
-            string apiUrl = $"https://discord.com/api/v9/invites/{inviteCode}?with_counts=true";
+            string apiUrl = "https://api.github.com/repos/ToXTweaks/ToX-Free-Utility/releases";
 
             try
             {
                 using (var client = new HttpClient())
                 {
+                    client.DefaultRequestHeaders.UserAgent.ParseAdd("ToX-Free-Utility");
+
                     HttpResponseMessage response = await client.GetAsync(apiUrl);
                     response.EnsureSuccessStatusCode();
 
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    JObject json = JObject.Parse(responseBody);
+                    JArray releases = JArray.Parse(responseBody);
 
-                    downloads.Text = json["approximate_member_count"].Value<string>();
+                    int totalDownloads = 0;
+
+                    foreach (var release in releases)
+                    {
+                        JArray assets = release["assets"] as JArray;
+                        if (assets != null)
+                        {
+                            foreach (var asset in assets)
+                            {
+                                totalDownloads += asset["download_count"].Value<int>();
+                            }
+                        }
+                    }
+
+                    downloads.Text = totalDownloads.ToString();
                 }
             }
             catch (Exception ex)
@@ -146,6 +165,7 @@ namespace ToX_Free_Utility
                 downloads.Text = "Error: " + ex.Message;
             }
         }
+
         private void CenterLabel()
         {
             downloads.Left = ((guna2GradientPanel2.Width - downloads.Width) / 2) + 2;
@@ -156,7 +176,7 @@ namespace ToX_Free_Utility
 
         private async void UpdateChecker_Click(object sender, EventArgs e)
         {
-            string currentVersion = "2.0";
+            string currentVersion = "2.1";
             string apiUrl = "https://api.github.com/repos/ToXTweaks/ToX-Free-Utility/releases/latest";
 
             try
@@ -194,6 +214,11 @@ namespace ToX_Free_Utility
             {
                 MessageBox.Show("Error checking for updates: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void ToXCoding_Click(object sender, EventArgs e)
+        {
+            OpenDiscordInvite("hrghbbuqsV");
         }
     }
 }

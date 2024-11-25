@@ -1,4 +1,7 @@
-﻿using System;
+﻿using DiscordRPC;
+using DiscordRPC.Logging;
+using System;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Reflection;
@@ -16,12 +19,65 @@ namespace ToX_Free_Utility
         {
             InitializeComponent();
             InitializeComponents();
+            InitializeDiscordRPC();
             Instance = this;
             //ensures that the form will be on top when it loads
             this.TopMost = true;
             this.TopMost = false;
         }
+        static void InitializeDiscordRPC()
+        {
+            if (IsDiscordRunning())
+            {
+                // Create a Discord client with your client ID
+                DiscordRpcClient client = new DiscordRpcClient("1310557797196369951");
 
+                // Set the logger for logging warnings
+                client.Logger = new ConsoleLogger() { Level = LogLevel.Warning };
+
+                // Subscribe to events
+                client.OnReady += (sender, e) =>
+                {
+
+                };
+
+                client.OnPresenceUpdate += (sender, e) =>
+                {
+
+                };
+
+                // Connect to the Discord RPC
+                client.Initialize();
+
+                // Create the buttons
+                DiscordRPC.Button DiscordServerButton = new DiscordRPC.Button() { Label = "Try For Free!", Url = "https://github.com/ToXTweaks/ToX-Free-Utility/releases/tag/v2.0" };
+                DiscordRPC.Button BuyNowButton = new DiscordRPC.Button() { Label = "Join Discord!", Url = "https://discord.gg/toxtweaks" };
+
+                // Set the rich presence
+                // Call this as many times as you want and anywhere in your code.
+                client.SetPresence(new RichPresence()
+                {
+                    Details = "A Real Tweaking Utility For Free!⚡",
+                    State = "Boosting FPS & Lowering Delay 🚀",
+                    Assets = new Assets()
+                    {
+                        LargeImageKey = "https://raw.githubusercontent.com/ToXTweaks/Resources-Free/refs/heads/main/TOXLOGO.png",
+                        LargeImageText = "via ToX Tweaks",
+                    },
+                    Buttons = new DiscordRPC.Button[] { DiscordServerButton, BuyNowButton }
+                });
+            }
+            else
+            {
+
+            }
+        }
+        static bool IsDiscordRunning()
+        {
+            // Check if Discord is running by searching for its process
+            Process[] processes = Process.GetProcessesByName("Discord");
+            return processes.Length > 0;
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             // Show Home Form

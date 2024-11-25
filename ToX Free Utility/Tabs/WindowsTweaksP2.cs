@@ -281,18 +281,18 @@ reg delete ""HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WpnUserService"" /
 
         private void DisableMicrosoftEdge()
         {
-            string batchCommands = @"powershell -Command ""Invoke-WebRequest -Uri 'https://github.com/FNClips/ToX-Utility/raw/main/MicrosoftEdgeSetup.exe' -OutFile '%TEMP%\MicrosoftEdgeSetup.exe'""
-
-:: Install Microsoft Edge silently
-start /wait """" ""%TEMP%\MicrosoftEdgeSetup.exe"" /silent /install
-";
+            string batchCommands = @"cd /d ""%ProgramFiles(x86)%\Microsoft\Edge\Application""
+rmdir /s /q ""%ProgramFiles(x86)%\Microsoft\Edge""";
 
             ExecuteBatchCommands(batchCommands);
         }
         private void RevertDisableMicrosoftEdge()
         {
-            string batchCommands = @"cd /d ""%ProgramFiles(x86)%\Microsoft\Edge\Application""
-rmdir /s /q ""%ProgramFiles(x86)%\Microsoft\Edge""";
+            string batchCommands = @"powershell -Command ""Invoke-WebRequest -Uri 'https://github.com/ToXTweaks/Resources-Free/raw/refs/heads/main/MicrosoftEdgeSetup.exe' -OutFile '%TEMP%\MicrosoftEdgeSetup.exe'""
+
+:: Install Microsoft Edge silently
+start /wait """" ""%TEMP%\MicrosoftEdgeSetup.exe"" /silent /install
+";
 
             ExecuteBatchCommands(batchCommands);
         }

@@ -77,36 +77,54 @@ namespace ToX_Free_Utility
             if (Properties.Settings.Default.Network == true) checkedCount++;
             if (Properties.Settings.Default.Memory == true) checkedCount++;
             if (Properties.Settings.Default.DUAC == true) checkedCount++;
+            if (Properties.Settings.Default.CoreParking == true) checkedCount++;
+            if (Properties.Settings.Default.ClearDevices == true) checkedCount++;
+            if (Properties.Settings.Default.BiosTweaks == true) checkedCount++;
+            if (Properties.Settings.Default.Mitigations == true) checkedCount++;
+            if (Properties.Settings.Default.AltTab == true) checkedCount++;
+            if (Properties.Settings.Default.HyperV == true) checkedCount++;
 
-            Optis.Text = "Used Optimizations: " + checkedCount.ToString() + "/34";
+            Optis.Text = "Used Optimizations: " + checkedCount.ToString() + "/40";
         }
 
 
 
         private void InitializePerformanceCounters()
         {
-            cpuCounter = new PerformanceCounter("Processor", "% Processor Time", "_Total");
-            ramCounter = new PerformanceCounter("Memory", "% Committed Bytes In Use");
-        }
+            try
+            {
+                cpuCounter = new PerformanceCounter("Processor", "% Processor Time", "_Total");
+                ramCounter = new PerformanceCounter("Memory", "% Committed Bytes In Use");
 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error loading system info: " + ex.Message);
+            }
+        }
         private async Task UpdatePerformanceData()
         {
-            // Asynchronously retrieve CPU and RAM usage
-            float cpuUsage = await Task.Run(() => cpuCounter.NextValue());
-            float ramUsage = await Task.Run(() => ramCounter.NextValue());
+            try
+            {
+                // Asynchronously retrieve CPU and RAM usage
+                float cpuUsage = await Task.Run(() => cpuCounter.NextValue());
+                float ramUsage = await Task.Run(() => ramCounter.NextValue());
 
-            // Update UI with performance data
-            UpdatePerformanceUI(cpuUsage, ramUsage);
+                // Update UI with performance data
+                UpdatePerformanceUI(cpuUsage, ramUsage);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error loading system info: " + ex.Message);
+            }
         }
 
-        private void UpdatePerformanceUI(float cpuUsage, float ramUsage)
+            private void UpdatePerformanceUI(float cpuUsage, float ramUsage)
         {
-            // Update the labels and progress bars on the UI thread
-            if (InvokeRequired)
+            try
             {
-                Invoke((MethodInvoker)(() => UpdatePerformanceUI(cpuUsage, ramUsage)));
-                return;
-            }
+                // Update the labels and progress bars on the UI thread
+                if (InvokeRequired) { Invoke((MethodInvoker)(() => UpdatePerformanceUI(cpuUsage, ramUsage))); return; }
 
             labelCPU.Text = $"{cpuUsage:0}%";
             labelRAM.Text = $"{ramUsage:0}%";
@@ -114,9 +132,12 @@ namespace ToX_Free_Utility
             guna2CircleProgressBar1.Value = (int)ramUsage;
             labelFreeCPU.Text = $"{100 - cpuUsage:0}%";
             labelFreeRAM.Text = $"{100 - ramUsage:0}%";
-
-            // Update process and thread counts
-            UpdateProcessAndThreadCounts();
+                UpdateProcessAndThreadCounts();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error loading system info: " + ex.Message);
+            }
         }
 
         private void UpdateProcessAndThreadCounts()
@@ -124,41 +145,38 @@ namespace ToX_Free_Utility
             int processCount = Process.GetProcesses().Length;
             labelProcessCount.Text = $"Process Count: {processCount}";
 
-            int threadCount = 0;
-            // Use Task to avoid UI blocking while calculating thread count
             Task.Run(() =>
             {
+                int threadCount = 0;
                 foreach (Process process in Process.GetProcesses())
-                {
                     threadCount += process.Threads.Count;
-                }
-                // Update thread count on the UI thread
                 UpdateThreadCountUI(threadCount);
             });
         }
 
         private void UpdateThreadCountUI(int threadCount)
         {
-            if (InvokeRequired)
-            {
-                Invoke((MethodInvoker)(() => UpdateThreadCountUI(threadCount)));
-                return;
-            }
-
+            if (InvokeRequired) { Invoke((MethodInvoker)(() => UpdateThreadCountUI(threadCount))); return; }
             labelThreadCount.Text = $"Thread Count: {threadCount}";
         }
 
         public async void LoadSystemInfoAsync()
         {
-            // Asynchronously load system information
             await Task.Run(() =>
             {
-                SetCpuName();
-                SetGpuName();
-                SetRamInfo();
-                SetMotherboardInfo();
-                SetDiskInfo();
-                SetNicInfo();
+                try
+                {
+                    SetCpuName();
+                    SetGpuName();
+                    SetRamInfo();
+                    SetMotherboardInfo();
+                    SetDiskInfo();
+                    SetNicInfo();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error loading system info: " + ex.Message);
+                }
             });
         }
 
@@ -370,41 +388,6 @@ namespace ToX_Free_Utility
             }
 
             labelNicInfo.Text = $"NIC: {nicName}";
-        }
-
-        private void guna2PictureBox10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox14_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox15_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox16_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox3_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void Home_Load(object sender, EventArgs e)

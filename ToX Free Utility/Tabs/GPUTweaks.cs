@@ -311,61 +311,40 @@ reg delete ""HKLM\SOFTWARE\AMD\Energy\PowerState"" /v ""EnableDynamicPower"" /t 
         }
         private void NvidiaGeneralTweaks()
         {
-            string batchCommands = @"Reg add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS"" /v ""EnableRID61684"" /t REG_DWORD /d ""1"" /f
-
-Reg add ""HKCU\Software\NVIDIA Corporation\Global\NVTweak\Devices\509901423-0\Color"" /v ""NvCplUseColorCorrection"" /t REG_DWORD /d ""0"" /f
-Reg add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"" /v ""PlatformSupportMiracast"" /t REG_DWORD /d ""0"" /f
-Reg add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\Global\NVTweak"" /v ""DisplayPowerSaving"" /t REG_DWORD /d ""0"" /f
-
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""D3PCLatency"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""F1TransitionLatency"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""LOWLATENCY"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""Node3DLowLatency"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""PciLatencyTimerControl"" /t REG_DWORD /d ""20"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RMDeepL1EntryLatencyUsec"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RmGspcMaxFtuS"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RmGspcMinFtuS"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RmGspcPerioduS"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RMLpwrEiIdleThresholdUs"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RMLpwrGrIdleThresholdUs"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RMLpwrGrRgIdleThresholdUs"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RMLpwrMsIdleThresholdUs"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""VRDirectFlipDPCDelayUs"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""VRDirectFlipTimingMarginUs"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""VRDirectJITFlipMsHybridFlipDelayUs"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""vrrCursorMarginUs"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""vrrDeflickerMarginUs"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""vrrDeflickerMaxUs"" /t REG_DWORD /d ""1"" /f
-
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RMHdcpKeyGlobZero"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""TCCSupported"" /t REG_DWORD /d ""0"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""PreferSystemMemoryContiguous"" /t REG_DWORD /d ""1"" /f
-
-reg add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm"" /v ""RmGpsPsEnablePerCpuCoreDpc"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\NVAPI"" /v ""RmGpsPsEnablePerCpuCoreDpc"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\Global\NVTweak"" /v ""RmGpsPsEnablePerCpuCoreDpc"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"" /v ""RmGpsPsEnablePerCpuCoreDpc"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power"" /v ""RmGpsPsEnablePerCpuCoreDpc"" /t REG_DWORD /d ""1"" /f
-
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RmCacheLoc"" /t REG_DWORD /d ""0"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"" /v ""TdrLevel"" /t REG_DWORD /d ""0"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"" /v ""TdrDelay"" /t REG_DWORD /d ""0"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"" /v ""TdrDdiDelay"" /t REG_DWORD /d ""0"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"" /v ""TdrDebugMode"" /t REG_DWORD /d ""0"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"" /v ""TdrLimitCount"" /t REG_DWORD /d ""0"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"" /v ""TdrLimitTime"" /t REG_DWORD /d ""0"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"" /v ""TdrTestMode"" /t REG_DWORD /d ""0"" /f
-
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RmFbsrPagedDMA"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""Acceleration.Level"" /t REG_DWORD /d ""0"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm"" /v ""DisablePreemption"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm"" /v ""DisableCudaContextPreemption"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm"" /v ""EnableCEPreemption"" /t REG_DWORD /d ""0"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm"" /v ""DisablePreemptionOnS3S4"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm"" /v ""ComputePreemption"" /t REG_DWORD /d ""0"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm"" /v ""DisableWriteCombining"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""DesktopStereoShortcuts"" /t REG_DWORD /d ""0"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""FeatureControl"" /t REG_DWORD /d ""4"" /f
+            string batchCommands = @"Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""TCCSupported"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKCU\SOFTWARE\NVIDIA Corporation\Global\NVTweak\Devices\509901423-0\Color"" /v ""NvCplUseColorCorrection"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"" /v ""PlatformSupportMiracast"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS"" /v EnableRID73779  /t REG_DWORD /d 1 /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS"" /v EnableRID73780  /t REG_DWORD /d 1 /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS"" /v EnableRID74361  /t REG_DWORD /d 1 /f
+Reg.exe add ""HKLM\SOFTWARE\NVIDIA Corporation\Global\FTS"" /v EnableRID44231  /t REG_DWORD /d 0 /f
+Reg.exe add ""HKLM\SOFTWARE\NVIDIA Corporation\Global\FTS"" /v EnableRID64640  /t REG_DWORD /d 0 /f
+Reg.exe add ""HKLM\SOFTWARE\NVIDIA Corporation\Global\FTS"" /v EnableRID66610  /t REG_DWORD /d 0 /f
+Reg.exe add ""HKLM\SOFTWARE\NVIDIA Corporation\NvControlPanel2\Client"" /v OptInOrOutPreference /t REG_DWORD /d 0 /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\services\NvTelemetryContainer"" /v Start /t REG_DWORD /d 4 /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\Global\Startup"" /v SendTelemetryData /t REG_DWORD /d 0 /f
+Reg.exe add ""HKLM\SOFTWARE\NVIDIA Corporation\Global\Startup\SendTelemetryData"" /v 0 /t REG_DWORD /d 0 /f
+Reg.exe add ""HKLM\SYSTEM\ControlSet001\Services\nvlddmkm"" /v ""EnableMidBufferPreemption"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Scheduler"" /v ""PlatformSupportMiracast"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"" /v ""RmGpsPsEnablePerCpuCoreDpc"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power"" /v ""RmGpsPsEnablePerCpuCoreDpc"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Scheduler"" /v ""RMDisablePostL2Compression"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Scheduler"" /v ""RmDisableRegistryCaching"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Scheduler"" /v ""RmGpsPsEnablePerCpuCoreDpc"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Scheduler"" /v ""PlatformSupportMiracast"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Throttle"" /v ""PerfEnablePackageIdle"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm"" /v ""0x112493bd"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm"" /v ""0x11e91a61"" /t REG_DWORD /d ""4294967295"" /f
+Reg.exe add ""HKLM\SYSTEM\ControlSet001\Services\nvlddmkm"" /v ""DisableCudaContextPreemption"" /t REG_DWORD /d ""1"" /f
+Reg.exe Add ""HKLM\SYSTEM\CurrentControlSet\Services\NvTelemetryContainer"" /v ""Start"" /t REG_DWORD /d ""4"" /f
+Reg.exe Add ""HKLM\SOFTWARE\NVIDIA Corporation\NvControlPanel2\Client"" /v ""OptInOrOutPreference"" /t REG_DWORD /d ""0"" /f
+Reg.exe Add ""HKLM\SOFTWARE\NVIDIA Corporation\Global\FTS"" /v ""EnableRID44231"" /t REG_DWORD /d ""0"" /f
+Reg.exe Add ""HKLM\SOFTWARE\NVIDIA Corporation\Global\FTS"" /v ""EnableRID64640"" /t REG_DWORD /d ""0"" /f
+Reg.exe Add ""HKLM\SOFTWARE\NVIDIA Corporation\Global\FTS"" /v ""EnableRID66610"" /t REG_DWORD /d ""0"" /f
+Reg.exe Add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS"" /v ""EnableRID44231"" /t REG_DWORD /d ""0"" /f
+Reg.exe Add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS"" /v ""EnableRID64640"" /t REG_DWORD /d ""0"" /f
+Reg.exe Add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS"" /v ""EnableRID66610"" /t REG_DWORD /d ""0"" /f
+Reg.exe Delete ""HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"" /v ""NvBackend"" /f
 ";
 
             ExecuteBatchCommands(batchCommands);
@@ -433,59 +412,57 @@ reg delete ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc
         }
         private void NvidiaHidden()
         {
-            string batchCommands = @"set cdCache=%cd%
-cd ""%SystemDrive%\Program Files\NVIDIA Corporation\NVSMI\""
-start """" /I /WAIT /B ""nvidia-smi"" -acp 0
-cd %cdCache%
-
-reg add ""HKCU\Software\NVIDIA Corporation\Global\NVTweak\Devices\509901423-0\Color"" /v ""NvCplUseColorCorrection"" /t Reg_DWORD /d ""0"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"" /v ""PlatformSupportMiracast"" /t Reg_DWORD /d ""0"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\Global\NVTweak"" /v ""DisplayPowerSaving"" /t Reg_DWORD /d ""0"" /f
-
-cd ""%SYSTEMDRIVE%\Program Files\NVIDIA Corporation\NVSMI\""
-nvidia-smi -acp UNRESTRICTED
-nvidia-smi -acp DEFAULT
-
-for /f %a in ('reg query ""HKLM\System\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}"" /t REG_SZ /s /e /f ""NVIDIA"" ^| findstr ""HKEY""') do (
-    echo !S_MAGENTA! Reset Tiled Display!S_YELLOW! 
-timeout /t 1 /nobreak > NUL
-    reg delete ""%a"" /v ""EnableTiledDisplay"" /f
-    echo !S_MAGENTA! Reset TCC!S_YELLOW! 
-timeout /t 1 /nobreak > NUL
-    reg delete ""%a"" /v ""TCCSupported"" /f
-)
-
-
-for /f %i in ('reg query ""HKLM\System\ControlSet001\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}"" /t REG_SZ /s /e /f ""NVIDIA"" ^| findstr ""HKEY""') do (
-  Reg add ""%a"" /v ""PowerMizerEnable"" /t REG_DWORD /d ""1"" /f
-  Reg add ""%a"" /v ""PowerMizerLevel"" /t REG_DWORD /d ""1"" /f
-  Reg add ""%a"" /v ""PowerMizerLevelAC"" /t REG_DWORD /d ""1"" /f
-  Reg add ""%a"" /v ""PerfLevelSrc"" /t REG_DWORD /d ""8738"" /f
-)
-
-reg add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS"" /v ""EnableRID61684"" /t REG_DWORD /d ""1"" /f
-reg add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm"" /v ""DisableWriteCombining"" /t Reg_DWORD /d ""1"" /f
-
-reg add ""HKLM\SOFTWARE\NVIDIA Corporation\NvControlPanel2\Client"" /v ""OptInOrOutPreference"" /t REG_DWORD /d 0 /f
-reg add ""HKLM\SOFTWARE\NVIDIA Corporation\Global\FTS"" /v ""EnableRID44231"" /t REG_DWORD /d 0 /f
-reg add ""HKLM\SOFTWARE\NVIDIA Corporation\Global\FTS"" /v ""EnableRID64640"" /t REG_DWORD /d 0 /f
-reg add ""HKLM\SOFTWARE\NVIDIA Corporation\Global\FTS"" /v ""EnableRID66610"" /t REG_DWORD /d 0 /f
-reg delete ""HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"" /v ""NvBackend"" /f
-schtasks /change /disable /tn ""NvTmRep_CrashReport1_{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}""
-schtasks /change /disable /tn ""NvTmRep_CrashReport2_{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}""
-schtasks /change /disable /tn ""NvTmRep_CrashReport3_{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}""
-schtasks /change /disable /tn ""NvTmRep_CrashReport4_{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}""
-sc config NvTelemetyContainer start=disabled
-sc stop NvTelemetyContainer
-if exist ""%systmedrive%\Program Files\NVIDIA Corporation\Installer2\InstallerCore\NVI2.DLL"" (rundll32 ""%systmedrive%\Program Files\NVIDIA Corporation\Installer2\InstallerCore\NVI2.DLL"",UninstallPackage NvTelemetryContainer)
-
-Reg.exe add ""HKLM\SYSTEM\ControlSet001\Services\nvlddmkm"" /v ""LogWarningEntries"" /t REG_DWORD /d ""0"" /f
-Reg.exe add ""HKLM\SYSTEM\ControlSet001\Services\nvlddmkm"" /v ""LogPagingEntries"" /t REG_DWORD /d ""0"" /f
-Reg.exe add ""HKLM\SYSTEM\ControlSet001\Services\nvlddmkm"" /v ""LogEventEntries"" /t REG_DWORD /d ""0"" /f
-Reg.exe add ""HKLM\SYSTEM\ControlSet001\Services\nvlddmkm"" /v ""LogErrorEntries"" /t REG_DWORD /d ""0"" /f
-
-sc config NVDisplay.ContainerLocalSystem start= auto
-sc start NVDisplay.ContainerLocalSystem
+            string batchCommands = @"Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""TCCSupported"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKCU\SOFTWARE\NVIDIA Corporation\Global\NVTweak\Devices\509901423-0\Color"" /v ""NvCplUseColorCorrection"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"" /v ""PlatformSupportMiracast"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS"" /v EnableRID73779  /t REG_DWORD /d 1 /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS"" /v EnableRID73780  /t REG_DWORD /d 1 /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS"" /v EnableRID74361  /t REG_DWORD /d 1 /f
+Reg.exe add ""HKLM\SOFTWARE\NVIDIA Corporation\Global\FTS"" /v EnableRID44231  /t REG_DWORD /d 0 /f
+Reg.exe add ""HKLM\SOFTWARE\NVIDIA Corporation\Global\FTS"" /v EnableRID64640  /t REG_DWORD /d 0 /f
+Reg.exe add ""HKLM\SOFTWARE\NVIDIA Corporation\Global\FTS"" /v EnableRID66610  /t REG_DWORD /d 0 /f
+Reg.exe add ""HKLM\SOFTWARE\NVIDIA Corporation\NvControlPanel2\Client"" /v OptInOrOutPreference /t REG_DWORD /d 0 /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\services\NvTelemetryContainer"" /v Start /t REG_DWORD /d 4 /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\Global\Startup"" /v SendTelemetryData /t REG_DWORD /d 0 /f
+Reg.exe add ""HKLM\SOFTWARE\NVIDIA Corporation\Global\Startup\SendTelemetryData"" /v 0 /t REG_DWORD /d 0 /f
+Reg.exe add ""HKLM\SOFTWARE\Microsoft\Windows\Dwm"" /v ""OverlayTestMode"" /t REG_DWORD /d ""5"" /f
+Reg.exe add ""HKLM\SYSTEM\ControlSet001\Services\nvlddmkm"" /v ""EnableMidBufferPreemption"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Scheduler"" /v ""PlatformSupportMiracast"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers"" /v ""RmGpsPsEnablePerCpuCoreDpc"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power"" /v ""RmGpsPsEnablePerCpuCoreDpc"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Scheduler"" /v ""RMDisablePostL2Compression"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Scheduler"" /v ""RmDisableRegistryCaching"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Scheduler"" /v ""RmGpsPsEnablePerCpuCoreDpc"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""DesktopStereoShortcuts"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""FeatureControl"" /t REG_DWORD /d ""4"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""NVDeviceSupportKFilter"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RmCacheLoc"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RmDisableInst2Sys"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RmFbsrPagedDMA"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RMGpuId"" /t REG_DWORD /d ""256"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""RmProfilingAdminOnly"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""TCCSupported"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""TrackResetEngine"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""UseBestResolution"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000"" /v ""ValidateBlitSubRects"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Power"" /v ""MaxIAverageGraphicsLatencyInOneBucket"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Scheduler"" /v ""PlatformSupportMiracast"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Power"" /v ""CsEnabled"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Power"" /v ""PerfCalculateActualUtilization"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Power"" /v ""SleepReliabilityDetailedDiagnostics"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Power"" /v ""EventProcessorEnabled"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Power"" /v ""QosManagesIdleProcessors"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Power"" /v ""DisableVsyncLatencyUpdate"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Power"" /v ""DisableSensorWatchdog"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Power"" /v ""InterruptSteeringDisabled"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\intelppm\Parameters"" /v ""AcpiFirmwareWatchDog"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\intelppm\Parameters"" /v ""AmliWatchdogAction"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\intelppm\Parameters"" /v ""AmliWatchdogTimeout"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\intelppm\Parameters"" /v ""WatchdogTimeout"" /t REG_DWORD /d ""1"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Throttle"" /v ""PerfEnablePackageIdle"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm"" /v ""0x112493bd"" /t REG_DWORD /d ""0"" /f
+Reg.exe add ""HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm"" /v ""0x11e91a61"" /t REG_DWORD /d ""4294967295"" /f
+Reg.exe add ""HKLM\SYSTEM\ControlSet001\Services\nvlddmkm"" /v ""DisableCudaContextPreemption"" /t REG_DWORD /d ""1"" /f
 ";
 
             ExecuteBatchCommands(batchCommands);
@@ -584,8 +561,8 @@ sc start NVDisplay.ContainerLocalSystem
 if not exist ""C:\ToX\Resources\"" ( mkdir ""C:\ToX\Resources\"" >nul 2>&1 )
 curl -g -k -L -# -o ""%tmp%\nvidiaProfileInspector.zip"" ""https://github.com/Orbmu2k/nvidiaProfileInspector/releases/latest/download/nvidiaProfileInspector.zip"">nul 2>&1
 powershell -NoProfile Expand-Archive '%tmp%\nvidiaProfileInspector.zip' -DestinationPath 'C:\ToX\Resources\'>nul 2>&1
-curl -g -k -L -# -o ""C:\ToX\Resources\BaseProfile.nip"" ""https://www.dropbox.com/scl/fi/4czft2dca1qfjfryko1bm/Base-Profile.nip?rlkey=gt9af7q6v0cs5kcjkcgtvv4i2&st=925uln6b&dl=1"" >nul 2>&1
-start """" /D ""C:\ToX\Resources"" nvidiaProfileInspector.exe BaseProfile.nip";
+curl -g -k -L -# -o ""C:\ToX\Resources\ToXFree.nip"" ""https://raw.githubusercontent.com/ToXTweaks/Resources-Free/refs/heads/main/ToXFree.nip"" >nul 2>&1
+start """" /D ""C:\ToX\Resources"" nvidiaProfileInspector.exe ToXFree.nip";
 
             ExecuteBatchCommands(batchCommands);
         }

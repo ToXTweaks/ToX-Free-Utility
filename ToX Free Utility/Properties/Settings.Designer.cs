@@ -430,5 +430,77 @@ namespace ToX_Free_Utility.Properties {
                 this["DUAC"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool CoreParking {
+            get {
+                return ((bool)(this["CoreParking"]));
+            }
+            set {
+                this["CoreParking"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool ClearDevices {
+            get {
+                return ((bool)(this["ClearDevices"]));
+            }
+            set {
+                this["ClearDevices"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool BiosTweaks {
+            get {
+                return ((bool)(this["BiosTweaks"]));
+            }
+            set {
+                this["BiosTweaks"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Mitigations {
+            get {
+                return ((bool)(this["Mitigations"]));
+            }
+            set {
+                this["Mitigations"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool AltTab {
+            get {
+                return ((bool)(this["AltTab"]));
+            }
+            set {
+                this["AltTab"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool HyperV {
+            get {
+                return ((bool)(this["HyperV"]));
+            }
+            set {
+                this["HyperV"] = value;
+            }
+        }
     }
 }

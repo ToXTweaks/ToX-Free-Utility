@@ -58,7 +58,7 @@
             this.ToXTweaksDisc = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel11 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.Website = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.ToXCoding = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel7 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.Instagram = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -315,7 +315,7 @@
             this.guna2GradientPanel3.Controls.Add(this.guna2GradientPanel13);
             this.guna2GradientPanel3.Controls.Add(this.ToXTweaksDisc);
             this.guna2GradientPanel3.Controls.Add(this.guna2GradientPanel11);
-            this.guna2GradientPanel3.Controls.Add(this.guna2Button1);
+            this.guna2GradientPanel3.Controls.Add(this.ToXCoding);
             this.guna2GradientPanel3.Controls.Add(this.guna2PictureBox4);
             this.guna2GradientPanel3.Controls.Add(this.guna2GradientPanel7);
             this.guna2GradientPanel3.Controls.Add(this.guna2PictureBox1);
@@ -514,23 +514,24 @@
             this.Website.TabIndex = 140;
             this.Website.Click += new System.EventHandler(this.Website_Click);
             // 
-            // guna2Button1
+            // ToXCoding
             // 
-            this.guna2Button1.BorderRadius = 2;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(128)))), ((int)(((byte)(69)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(99)))), ((int)(((byte)(52)))));
-            this.guna2Button1.Location = new System.Drawing.Point(936, 73);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(58, 40);
-            this.guna2Button1.TabIndex = 116;
-            this.guna2Button1.Text = "Join";
+            this.ToXCoding.BorderRadius = 2;
+            this.ToXCoding.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ToXCoding.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ToXCoding.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ToXCoding.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ToXCoding.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ToXCoding.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(128)))), ((int)(((byte)(69)))));
+            this.ToXCoding.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
+            this.ToXCoding.ForeColor = System.Drawing.Color.White;
+            this.ToXCoding.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(99)))), ((int)(((byte)(52)))));
+            this.ToXCoding.Location = new System.Drawing.Point(936, 73);
+            this.ToXCoding.Name = "ToXCoding";
+            this.ToXCoding.Size = new System.Drawing.Size(58, 40);
+            this.ToXCoding.TabIndex = 116;
+            this.ToXCoding.Text = "Join";
+            this.ToXCoding.Click += new System.EventHandler(this.ToXCoding_Click);
             // 
             // guna2PictureBox4
             // 
@@ -746,7 +747,7 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2Button ToXTweaksDisc;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button ToXCoding;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel6;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel5;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel11;

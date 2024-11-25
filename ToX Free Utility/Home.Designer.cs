@@ -328,7 +328,6 @@
             this.guna2PictureBox3.TabIndex = 23;
             this.guna2PictureBox3.TabStop = false;
             this.guna2PictureBox3.UseTransparentBackground = true;
-            this.guna2PictureBox3.Click += new System.EventHandler(this.guna2PictureBox3_Click);
             // 
             // labelThreadCount
             // 
@@ -366,7 +365,6 @@
             this.guna2PictureBox4.TabIndex = 20;
             this.guna2PictureBox4.TabStop = false;
             this.guna2PictureBox4.UseTransparentBackground = true;
-            this.guna2PictureBox4.Click += new System.EventHandler(this.guna2PictureBox4_Click);
             // 
             // guna2GradientPanel3
             // 
@@ -414,19 +412,14 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 23;
             this.listBox1.Items.AddRange(new object[] {
-            " • New User Interface",
-            " • Batch > C# Winforms",
-            " • 20+ New Tweaks",
-            " • Added a NIP (Nvidia)",
-            " • Fixed a lot of Bugs",
-            " • New AMD GPU Tweaks",
-            " • New Intel GPU Tweaks",
-            " • New Nvidia Tweaks",
-            " • New Power Plan",
-            " • Improved Game Booster",
-            " • Improved Windows Tweaks",
-            " • Improved CPU Tweaks",
-            " • Improved Debloat",
+            " • Minor UI Improvements",
+            " • Added New Tweaks Page",
+            " • 6+ New Optimizations",
+            " • Improved NIP",
+            " • Improved Nvidia Tweaks",
+            " • Improved Performance Tweaks",
+            " • Fixed Minor Bugs",
+            " • Fixed Home Tab Error",
             " • Added Discord RPC"});
             this.listBox1.Location = new System.Drawing.Point(15, 48);
             this.listBox1.Name = "listBox1";
@@ -457,7 +450,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(167, 24);
             this.label5.TabIndex = 0;
-            this.label5.Text = "- Change-Log (v2.0)";
+            this.label5.Text = "- Change-Log (v2.1)";
             // 
             // label6
             // 
@@ -531,7 +524,6 @@
             this.guna2PictureBox16.TabIndex = 31;
             this.guna2PictureBox16.TabStop = false;
             this.guna2PictureBox16.UseTransparentBackground = true;
-            this.guna2PictureBox16.Click += new System.EventHandler(this.guna2PictureBox16_Click);
             // 
             // labelDiskInfo
             // 
@@ -558,7 +550,6 @@
             this.guna2PictureBox15.TabIndex = 29;
             this.guna2PictureBox15.TabStop = false;
             this.guna2PictureBox15.UseTransparentBackground = true;
-            this.guna2PictureBox15.Click += new System.EventHandler(this.guna2PictureBox15_Click);
             // 
             // labelMotherboardInfo
             // 
@@ -585,7 +576,6 @@
             this.guna2PictureBox14.TabIndex = 27;
             this.guna2PictureBox14.TabStop = false;
             this.guna2PictureBox14.UseTransparentBackground = true;
-            this.guna2PictureBox14.Click += new System.EventHandler(this.guna2PictureBox14_Click);
             // 
             // labelRamInfo
             // 
@@ -612,7 +602,6 @@
             this.guna2PictureBox5.TabIndex = 25;
             this.guna2PictureBox5.TabStop = false;
             this.guna2PictureBox5.UseTransparentBackground = true;
-            this.guna2PictureBox5.Click += new System.EventHandler(this.guna2PictureBox5_Click);
             // 
             // labelGpuName
             // 
@@ -639,7 +628,6 @@
             this.guna2PictureBox10.TabIndex = 23;
             this.guna2PictureBox10.TabStop = false;
             this.guna2PictureBox10.UseTransparentBackground = true;
-            this.guna2PictureBox10.Click += new System.EventHandler(this.guna2PictureBox10_Click);
             // 
             // labelCpuName
             // 
