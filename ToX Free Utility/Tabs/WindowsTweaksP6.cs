@@ -8,9 +8,9 @@ using ToX_Free_Utility.LoadingForms;
 
 namespace ToX_Free_Utility.Tabs
 {
-    public partial class WindowsTweaksP4 : Form
+    public partial class WindowsTweaksP6 : Form
     {
-        public WindowsTweaksP4()
+        public WindowsTweaksP6()
         {
             InitializeComponent();
             LoadSettings();
@@ -43,7 +43,7 @@ namespace ToX_Free_Utility.Tabs
             if (Main.Instance != null)
             {
                 // Create an instance of the WindowsTweaksP2 form
-                WindowsTweaksP3 myForm = new WindowsTweaksP3();
+                WindowsTweaksP5 myForm = new WindowsTweaksP5();
                 myForm.TopLevel = false; // Set to false since it's being shown in a panel
 
                 // Clear existing controls in the MainPanel
@@ -344,31 +344,5 @@ namespace ToX_Free_Utility.Tabs
             ExecuteBatchCommands(batchCommands);
         }
 
-        private void guna2ImageButton1_Click(object sender, EventArgs e)
-        {
-            if (Main.Instance != null)
-            {
-                // Create an instance of the WindowsTweaksP2 form
-                WindowsTweaksP5 myForm = new WindowsTweaksP5();
-                myForm.TopLevel = false; // Set to false since it's being shown in a panel
-
-                // Clear existing controls in the MainPanel
-                Main.Instance.MainPanel.Controls.Clear();
-
-                // Fade out the current content in the panel
-                Main.Instance.guna2Transition1.HideSync(Main.Instance.MainPanel);
-
-                // Show the new form and apply the transition after a short delay
-                Task.Delay(1).ContinueWith(_ =>
-                {
-                    Main.Instance.MainPanel.Invoke((Action)(() =>
-                    {
-                        Main.Instance.MainPanel.Controls.Add(myForm); // Add the new form to the panel
-                        myForm.Show(); // Show the new form
-                        Main.Instance.guna2Transition1.ShowSync(Main.Instance.MainPanel); // Fade in the new content
-                    }));
-                });
-            }
-        }
     }
 }

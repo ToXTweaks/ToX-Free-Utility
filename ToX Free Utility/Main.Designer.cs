@@ -74,8 +74,7 @@
             this.MainPanel.AutoScroll = true;
             this.MainPanel.BackColor = System.Drawing.Color.Transparent;
             this.MainPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.MainPanel.BorderRadius = 8;
-            this.MainPanel.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dot;
+            this.MainPanel.BorderRadius = 10;
             this.MainPanel.CustomizableEdges.BottomLeft = false;
             this.MainPanel.CustomizableEdges.BottomRight = false;
             this.MainPanel.CustomizableEdges.TopRight = false;
@@ -89,7 +88,7 @@
             // 
             // homecircle
             // 
-            this.homecircle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.homecircle.BackColor = System.Drawing.Color.Transparent;
             this.homecircle.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
             this.guna2Transition1.SetDecoration(this.homecircle, Guna.UI2.AnimatorNS.DecorationType.None);
             this.homecircle.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
@@ -102,6 +101,7 @@
             this.homecircle.Size = new System.Drawing.Size(15, 15);
             this.homecircle.TabIndex = 0;
             this.homecircle.Text = "guna2Shapes1";
+            this.homecircle.UseTransparentBackground = true;
             this.homecircle.Zoom = 80;
             // 
             // wincircle
@@ -254,11 +254,10 @@
             animation1.TimeCoeff = 0F;
             animation1.TransparencyCoeff = 1F;
             this.guna2Transition1.DefaultAnimation = animation1;
-            this.guna2Transition1.TimeStep = 0.1F;
+            this.guna2Transition1.TimeStep = 0.05F;
             // 
             // premiumbutton
             // 
-            this.premiumbutton.Animated = true;
             this.guna2Transition1.SetDecoration(this.premiumbutton, Guna.UI2.AnimatorNS.DecorationType.None);
             this.premiumbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.premiumbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -277,7 +276,6 @@
             // 
             // infobutton
             // 
-            this.infobutton.Animated = true;
             this.guna2Transition1.SetDecoration(this.infobutton, Guna.UI2.AnimatorNS.DecorationType.None);
             this.infobutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.infobutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -298,7 +296,6 @@
             // 
             // gamingbutton
             // 
-            this.gamingbutton.Animated = true;
             this.guna2Transition1.SetDecoration(this.gamingbutton, Guna.UI2.AnimatorNS.DecorationType.None);
             this.gamingbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.gamingbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -320,7 +317,6 @@
             // 
             // gpubutton
             // 
-            this.gpubutton.Animated = true;
             this.guna2Transition1.SetDecoration(this.gpubutton, Guna.UI2.AnimatorNS.DecorationType.None);
             this.gpubutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.gpubutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -342,7 +338,6 @@
             // 
             // usbbutton
             // 
-            this.usbbutton.Animated = true;
             this.guna2Transition1.SetDecoration(this.usbbutton, Guna.UI2.AnimatorNS.DecorationType.None);
             this.usbbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.usbbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -365,7 +360,6 @@
             // 
             // debloatbutton
             // 
-            this.debloatbutton.Animated = true;
             this.guna2Transition1.SetDecoration(this.debloatbutton, Guna.UI2.AnimatorNS.DecorationType.None);
             this.debloatbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.debloatbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -387,7 +381,6 @@
             // 
             // winbutton
             // 
-            this.winbutton.Animated = true;
             this.winbutton.BackColor = System.Drawing.Color.Transparent;
             this.guna2Transition1.SetDecoration(this.winbutton, Guna.UI2.AnimatorNS.DecorationType.None);
             this.winbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -411,7 +404,6 @@
             // 
             // homebutton
             // 
-            this.homebutton.Animated = true;
             this.homebutton.BackColor = System.Drawing.Color.Transparent;
             this.guna2Transition1.SetDecoration(this.homebutton, Guna.UI2.AnimatorNS.DecorationType.None);
             this.homebutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;

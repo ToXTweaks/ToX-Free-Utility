@@ -502,5 +502,77 @@ namespace ToX_Free_Utility.Properties {
                 this["HyperV"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Services {
+            get {
+                return ((bool)(this["Services"]));
+            }
+            set {
+                this["Services"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Kernel {
+            get {
+                return ((bool)(this["Kernel"]));
+            }
+            set {
+                this["Kernel"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Power {
+            get {
+                return ((bool)(this["Power"]));
+            }
+            set {
+                this["Power"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool FSE {
+            get {
+                return ((bool)(this["FSE"]));
+            }
+            set {
+                this["FSE"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Hiber {
+            get {
+                return ((bool)(this["Hiber"]));
+            }
+            set {
+                this["Hiber"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool SSD {
+            get {
+                return ((bool)(this["SSD"]));
+            }
+            set {
+                this["SSD"] = value;
+            }
+        }
     }
 }

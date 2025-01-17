@@ -50,7 +50,7 @@ namespace ToX_Free_Utility
                 client.Initialize();
 
                 // Create the buttons
-                DiscordRPC.Button DiscordServerButton = new DiscordRPC.Button() { Label = "Try For Free!", Url = "https://github.com/ToXTweaks/ToX-Free-Utility/releases/tag/v2.0" };
+                DiscordRPC.Button DiscordServerButton = new DiscordRPC.Button() { Label = "Try For Free!", Url = "https://github.com/ToXTweaks/ToX-Free-Utility/releases/" };
                 DiscordRPC.Button BuyNowButton = new DiscordRPC.Button() { Label = "Join Discord!", Url = "https://discord.gg/toxtweaks" };
 
                 // Set the rich presence

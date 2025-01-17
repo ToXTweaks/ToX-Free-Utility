@@ -52,10 +52,10 @@ namespace ToX_Free_Utility.Tabs
         private void UpdateLabelColors()
         {
             var checkboxes = new[] { bingbutton, xboxbutton, wphonebutton, walarmbutton, m3dbutton, wmapsbutton, builderbutton, wsoundbutton, medgebutton, wcamerabutton,
-                                     cleartemp, clearcache, cleardns, cleargamescache, clearbrowsercache, clearcookies, clearprefetch, clearhistory, clearbin };
+                                     cleartemp, clearcache, cleardns, cleargamescache, clearbrowsercache, clearcookies, clearprefetch, clearhistory, clearbin, discordcache };
 
             var labels = new[] { binglabel, xboxlabel, wphonelabel, walarmlabel, m3dlabel, wmapslabel, builderlabel, wsoundlabel, medgelabel, wcameralabel,
-                                 templabel, cachelabel, dnslabel, gamescachelabel, browsercachelabel, cookieslabel, prefetchlabel, historylabel, binlabel };
+                                 templabel, cachelabel, dnslabel, gamescachelabel, browsercachelabel, cookieslabel, prefetchlabel, historylabel, binlabel, discordlabel };
 
             for (int i = 0; i < checkboxes.Length; i++)
             {
@@ -564,7 +564,7 @@ namespace ToX_Free_Utility.Tabs
         #endregion
         private void ApplyAll2_Click(object sender, EventArgs e)
         {
-            var checkboxes = new[] { cleartemp, clearcache, cleardns, cleargamescache, clearbrowsercache, clearcookies, clearprefetch, clearhistory, clearbin };
+            var checkboxes = new[] { cleartemp, clearcache, cleardns, cleargamescache, clearbrowsercache, clearcookies, clearprefetch, clearhistory, clearbin, discordcache };
 
             bool allChecked = checkboxes.All(cb => cb.Checked); // Check if all are checked 
 
@@ -572,6 +572,20 @@ namespace ToX_Free_Utility.Tabs
             {
                 checkbox.Checked = !allChecked;
             }
+        }
+
+        private void discordcache_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void discordlabel_Click(object sender, EventArgs e) => ToggleCheckboxState(discordcache);
+        private async Task ClearDiscordCache()
+        {
+            await Task.Run(() => ExecuteBatchCommand(@"rd ""%AppData%\Discord\Cache"" /s /q
+rd ""%AppData%\Discord\Code Cache"" /s /q
+md ""%AppData%\Discord\Cache""
+md ""%AppData%\Discord\Code Cache"""));
         }
     }
 }

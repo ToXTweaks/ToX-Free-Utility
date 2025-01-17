@@ -263,7 +263,7 @@
             this.downloads.Name = "downloads";
             this.downloads.Size = new System.Drawing.Size(81, 37);
             this.downloads.TabIndex = 36;
-            this.downloads.Text = "3669";
+            this.downloads.Text = "0000";
             this.downloads.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label5

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Diagnostics;
 using System.IO;
 using System.Management;
@@ -31,18 +32,27 @@ namespace ToX_Free_Utility
             {
                 Interval = 1000 // 1 second interval
             };
-            updateTimer.Tick += async (s, e) => await UpdatePerformanceData();
+
+            updateTimer.Tick += async (s, e) =>
+            {
+                if (!hasErrorOccurred) 
+                {
+                    await UpdatePerformanceData();
+                }
+            };
+
             updateTimer.Start();
 
             // Load system information asynchronously
             LoadSystemInfoAsync();
             welcomemsg.Text = "Welcome, " + Environment.UserName;
             guna2Separator1.Width = welcomemsg.Width - 12;
+            
         }
         private void UsedOptimization()
         {
             int checkedCount = 0;
-
+            // v2.0
             if (Properties.Settings.Default.KBOpti == true) checkedCount++;
             if (Properties.Settings.Default.KBDelay == true) checkedCount++;
             if (Properties.Settings.Default.KBRate == true) checkedCount++;
@@ -77,14 +87,21 @@ namespace ToX_Free_Utility
             if (Properties.Settings.Default.Network == true) checkedCount++;
             if (Properties.Settings.Default.Memory == true) checkedCount++;
             if (Properties.Settings.Default.DUAC == true) checkedCount++;
+            // v2.1
             if (Properties.Settings.Default.CoreParking == true) checkedCount++;
             if (Properties.Settings.Default.ClearDevices == true) checkedCount++;
             if (Properties.Settings.Default.BiosTweaks == true) checkedCount++;
             if (Properties.Settings.Default.Mitigations == true) checkedCount++;
             if (Properties.Settings.Default.AltTab == true) checkedCount++;
             if (Properties.Settings.Default.HyperV == true) checkedCount++;
-
-            Optis.Text = "Used Optimizations: " + checkedCount.ToString() + "/40";
+            // v2.2
+            if (Properties.Settings.Default.Services == true) checkedCount++;
+            if (Properties.Settings.Default.Kernel == true) checkedCount++;
+            if (Properties.Settings.Default.Power == true) checkedCount++;
+            if (Properties.Settings.Default.FSE == true) checkedCount++;
+            if (Properties.Settings.Default.SSD == true) checkedCount++;
+            if (Properties.Settings.Default.Hiber == true) checkedCount++;
+            Optis.Text = "Used Optimizations: " + checkedCount.ToString() + "/46";
         }
 
 
@@ -99,9 +116,12 @@ namespace ToX_Free_Utility
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error loading system info: " + ex.Message);
+                MessageBox.Show("Error loading system info1: " + ex.Message);
+                return;
             }
         }
+        private bool hasErrorOccurred = false;
+
         private async Task UpdatePerformanceData()
         {
             try
@@ -115,11 +135,13 @@ namespace ToX_Free_Utility
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error loading system info: " + ex.Message);
+                MessageBox.Show("Error loading system info2: " + ex.Message);
+                hasErrorOccurred = true;
+                return;
             }
         }
 
-            private void UpdatePerformanceUI(float cpuUsage, float ramUsage)
+        private void UpdatePerformanceUI(float cpuUsage, float ramUsage)
         {
             try
             {
@@ -136,7 +158,8 @@ namespace ToX_Free_Utility
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error loading system info: " + ex.Message);
+                MessageBox.Show("Error loading system info3: " + ex.Message);
+                return;
             }
         }
 
@@ -175,7 +198,8 @@ namespace ToX_Free_Utility
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Error loading system info: " + ex.Message);
+                    MessageBox.Show("Error loading system info4: " + ex.Message);
+                    return;
                 }
             });
         }
@@ -392,7 +416,7 @@ namespace ToX_Free_Utility
 
         private void Home_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

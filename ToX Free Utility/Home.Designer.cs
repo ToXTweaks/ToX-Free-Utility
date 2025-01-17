@@ -394,7 +394,7 @@
             this.guna2VScrollBar1.HighlightOnWheel = true;
             this.guna2VScrollBar1.InUpdate = false;
             this.guna2VScrollBar1.Location = new System.Drawing.Point(317, 48);
-            this.guna2VScrollBar1.Maximum = 5;
+            this.guna2VScrollBar1.Maximum = 9;
             this.guna2VScrollBar1.Name = "guna2VScrollBar1";
             this.guna2VScrollBar1.ScrollbarSize = 18;
             this.guna2VScrollBar1.Size = new System.Drawing.Size(18, 115);
@@ -415,12 +415,13 @@
             " • Minor UI Improvements",
             " • Added New Tweaks Page",
             " • 6+ New Optimizations",
-            " • Improved NIP",
-            " • Improved Nvidia Tweaks",
-            " • Improved Performance Tweaks",
-            " • Fixed Minor Bugs",
-            " • Fixed Home Tab Error",
-            " • Added Discord RPC"});
+            " • Improved PowerPlan",
+            " • Added FSE ON Option",
+            " • Added Kernel Tweaks",
+            " • Added Advanced Services",
+            " • Fixed Some Animations",
+            " • Fixed Home Tab Bug",
+            " & more"});
             this.listBox1.Location = new System.Drawing.Point(15, 48);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(320, 115);
@@ -1028,7 +1029,7 @@
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel7;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator2;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
-        private System.Windows.Forms.ListBox listBox1;
         private Guna.UI2.WinForms.Guna2VScrollBar guna2VScrollBar1;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }

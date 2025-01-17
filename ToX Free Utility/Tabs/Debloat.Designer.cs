@@ -62,9 +62,8 @@
             this.label14 = new System.Windows.Forms.Label();
             this.clearbin = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.discordlabel = new System.Windows.Forms.Label();
             this.cleartemp = new Guna.UI2.WinForms.Guna2CustomCheckBox();
-            this.guna2CustomCheckBox13 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.templabel = new System.Windows.Forms.Label();
             this.historylabel = new System.Windows.Forms.Label();
             this.clearcache = new Guna.UI2.WinForms.Guna2CustomCheckBox();
@@ -81,6 +80,7 @@
             this.browsercachelabel = new System.Windows.Forms.Label();
             this.clearbrowsercache = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+            this.discordcache = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.guna2GradientPanel4.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -521,15 +521,15 @@
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel1.BorderRadius = 8;
             this.guna2GradientPanel1.BorderThickness = 2;
+            this.guna2GradientPanel1.Controls.Add(this.discordcache);
             this.guna2GradientPanel1.Controls.Add(this.ApplyAll2);
             this.guna2GradientPanel1.Controls.Add(this.DeleteJunk);
             this.guna2GradientPanel1.Controls.Add(this.binlabel);
             this.guna2GradientPanel1.Controls.Add(this.label14);
             this.guna2GradientPanel1.Controls.Add(this.clearbin);
             this.guna2GradientPanel1.Controls.Add(this.label15);
-            this.guna2GradientPanel1.Controls.Add(this.label16);
+            this.guna2GradientPanel1.Controls.Add(this.discordlabel);
             this.guna2GradientPanel1.Controls.Add(this.cleartemp);
-            this.guna2GradientPanel1.Controls.Add(this.guna2CustomCheckBox13);
             this.guna2GradientPanel1.Controls.Add(this.templabel);
             this.guna2GradientPanel1.Controls.Add(this.historylabel);
             this.guna2GradientPanel1.Controls.Add(this.clearcache);
@@ -649,18 +649,19 @@
             this.label15.TabIndex = 108;
             this.label15.Text = "Junk Cleaner";
             // 
-            // label16
+            // discordlabel
             // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label16.Font = new System.Drawing.Font("Trebuchet MS", 19F, System.Drawing.FontStyle.Bold);
-            this.label16.ForeColor = System.Drawing.Color.DarkGray;
-            this.label16.Location = new System.Drawing.Point(42, 429);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(236, 33);
-            this.label16.TabIndex = 127;
-            this.label16.Text = "In Development...";
+            this.discordlabel.AutoSize = true;
+            this.discordlabel.BackColor = System.Drawing.Color.Transparent;
+            this.discordlabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.discordlabel.Font = new System.Drawing.Font("Trebuchet MS", 19F, System.Drawing.FontStyle.Bold);
+            this.discordlabel.ForeColor = System.Drawing.Color.Gainsboro;
+            this.discordlabel.Location = new System.Drawing.Point(42, 429);
+            this.discordlabel.Name = "discordlabel";
+            this.discordlabel.Size = new System.Drawing.Size(258, 33);
+            this.discordlabel.TabIndex = 127;
+            this.discordlabel.Text = "Clear Discord Cache";
+            this.discordlabel.Click += new System.EventHandler(this.discordlabel_Click);
             // 
             // cleartemp
             // 
@@ -680,27 +681,6 @@
             this.cleartemp.UncheckedState.BorderRadius = 2;
             this.cleartemp.UncheckedState.BorderThickness = 0;
             this.cleartemp.UncheckedState.FillColor = System.Drawing.Color.White;
-            // 
-            // guna2CustomCheckBox13
-            // 
-            this.guna2CustomCheckBox13.Animated = true;
-            this.guna2CustomCheckBox13.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomCheckBox13.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2CustomCheckBox13.CheckedState.BorderRadius = 2;
-            this.guna2CustomCheckBox13.CheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox13.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2CustomCheckBox13.CheckMarkColor = System.Drawing.Color.Gray;
-            this.guna2CustomCheckBox13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2CustomCheckBox13.Enabled = false;
-            this.guna2CustomCheckBox13.Location = new System.Drawing.Point(18, 436);
-            this.guna2CustomCheckBox13.Name = "guna2CustomCheckBox13";
-            this.guna2CustomCheckBox13.Size = new System.Drawing.Size(20, 20);
-            this.guna2CustomCheckBox13.TabIndex = 126;
-            this.guna2CustomCheckBox13.Text = "guna2CustomCheckBox13";
-            this.guna2CustomCheckBox13.UncheckedState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CustomCheckBox13.UncheckedState.BorderRadius = 2;
-            this.guna2CustomCheckBox13.UncheckedState.BorderThickness = 0;
-            this.guna2CustomCheckBox13.UncheckedState.FillColor = System.Drawing.Color.DarkGray;
             // 
             // templabel
             // 
@@ -959,6 +939,26 @@
             this.guna2BorderlessForm1.ResizeForm = false;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
+            // discordcache
+            // 
+            this.discordcache.Animated = true;
+            this.discordcache.BackColor = System.Drawing.Color.Transparent;
+            this.discordcache.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.discordcache.CheckedState.BorderRadius = 2;
+            this.discordcache.CheckedState.BorderThickness = 0;
+            this.discordcache.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.discordcache.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.discordcache.Location = new System.Drawing.Point(18, 436);
+            this.discordcache.Name = "discordcache";
+            this.discordcache.Size = new System.Drawing.Size(20, 20);
+            this.discordcache.TabIndex = 132;
+            this.discordcache.Text = "guna2CustomCheckBox15";
+            this.discordcache.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.discordcache.UncheckedState.BorderRadius = 2;
+            this.discordcache.UncheckedState.BorderThickness = 0;
+            this.discordcache.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.discordcache.Click += new System.EventHandler(this.discordcache_Click);
+            // 
             // Debloat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1009,9 +1009,8 @@
         private System.Windows.Forms.Label label14;
         private Guna.UI2.WinForms.Guna2CustomCheckBox clearbin;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label discordlabel;
         private Guna.UI2.WinForms.Guna2CustomCheckBox cleartemp;
-        private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox13;
         private System.Windows.Forms.Label templabel;
         private System.Windows.Forms.Label historylabel;
         private Guna.UI2.WinForms.Guna2CustomCheckBox clearcache;
@@ -1032,5 +1031,6 @@
         private Guna.UI2.WinForms.Guna2Button Uninstall;
         private Guna.UI2.WinForms.Guna2ImageButton ApplyAll1;
         private Guna.UI2.WinForms.Guna2ImageButton ApplyAll2;
+        private Guna.UI2.WinForms.Guna2CustomCheckBox discordcache;
     }
 }

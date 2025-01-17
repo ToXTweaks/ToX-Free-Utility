@@ -1,6 +1,6 @@
 ﻿namespace ToX_Free_Utility.Tabs
 {
-    partial class WindowsTweaksP4
+    partial class WindowsTweaksP5
     {
         /// <summary>
         /// Required designer variable.
@@ -29,15 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WindowsTweaksP4));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WindowsTweaksP5));
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.label6 = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.guna2Separator8 = new Guna.UI2.WinForms.Guna2Separator();
             this.label1 = new System.Windows.Forms.Label();
-            this.CoreParking = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.Services = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.label5 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -45,63 +42,66 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
-            this.Mitigations = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.FSE = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.label3 = new System.Windows.Forms.Label();
             this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.BiosTweaks = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.Power = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.label11 = new System.Windows.Forms.Label();
             this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
-            this.ClearDevices = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.Kernel = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.label14 = new System.Windows.Forms.Label();
             this.guna2GradientPanel5 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.guna2Separator5 = new Guna.UI2.WinForms.Guna2Separator();
-            this.HyperV = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.Hiber = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.label17 = new System.Windows.Forms.Label();
             this.guna2GradientPanel6 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.guna2Separator4 = new Guna.UI2.WinForms.Guna2Separator();
             this.label19 = new System.Windows.Forms.Label();
-            this.AltTab = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.SSD = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.label20 = new System.Windows.Forms.Label();
             this.guna2Separator7 = new Guna.UI2.WinForms.Guna2Separator();
-            this.guna2PictureBox26 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox23 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox22 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox21 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox24 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox25 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.NextPage = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.label18 = new System.Windows.Forms.Label();
+            this.guna2Separator6 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.guna2Separator8 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2GradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2GradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             this.guna2GradientPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.guna2GradientPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2GradientPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
             this.guna2GradientPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -132,11 +132,11 @@
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel1.BorderRadius = 8;
             this.guna2GradientPanel1.BorderThickness = 2;
-            this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox1);
-            this.guna2GradientPanel1.Controls.Add(this.label21);
-            this.guna2GradientPanel1.Controls.Add(this.guna2Separator8);
+            this.guna2GradientPanel1.Controls.Add(this.label18);
+            this.guna2GradientPanel1.Controls.Add(this.guna2Separator6);
             this.guna2GradientPanel1.Controls.Add(this.label1);
-            this.guna2GradientPanel1.Controls.Add(this.CoreParking);
+            this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox1);
+            this.guna2GradientPanel1.Controls.Add(this.Services);
             this.guna2GradientPanel1.Controls.Add(this.label5);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -146,40 +146,6 @@
             this.guna2GradientPanel1.TabIndex = 27;
             this.guna2GradientPanel1.UseTransparentBackground = true;
             // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.BorderRadius = 7;
-            this.guna2PictureBox1.Enabled = false;
-            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(10, 126);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(22, 22);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 109;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Trebuchet MS", 10F);
-            this.label21.ForeColor = System.Drawing.Color.Lime;
-            this.label21.Location = new System.Drawing.Point(30, 129);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(61, 18);
-            this.label21.TabIndex = 110;
-            this.label21.Text = "Finished";
-            // 
-            // guna2Separator8
-            // 
-            this.guna2Separator8.FillColor = System.Drawing.Color.Lime;
-            this.guna2Separator8.Location = new System.Drawing.Point(13, 145);
-            this.guna2Separator8.Name = "guna2Separator8";
-            this.guna2Separator8.Size = new System.Drawing.Size(75, 10);
-            this.guna2Separator8.TabIndex = 111;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -187,39 +153,38 @@
             this.label1.ForeColor = System.Drawing.Color.Gainsboro;
             this.label1.Location = new System.Drawing.Point(10, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(465, 54);
+            this.label1.Size = new System.Drawing.Size(474, 36);
             this.label1.TabIndex = 28;
-            this.label1.Text = "This tweak disables core parking, ensuring all CPU cores remain active for\r\nmaxim" +
-    "um performance. It helps improve system responsiveness and stability,\r\nespeciall" +
-    "y during demanding tasks or gaming.";
+            this.label1.Text = "Disables advanced Windows services to maximize performance, free up system\r\nresou" +
+    "rces, and minimize background activity for expert-level optimization.";
             // 
-            // CoreParking
+            // Services
             // 
-            this.CoreParking.Animated = true;
-            this.CoreParking.BackColor = System.Drawing.Color.Transparent;
-            this.CoreParking.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.CoreParking.CheckedState.BorderRadius = 12;
-            this.CoreParking.CheckedState.BorderThickness = 2;
-            this.CoreParking.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.CoreParking.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.CoreParking.CheckedState.InnerBorderRadius = 8;
-            this.CoreParking.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.CoreParking.CheckedState.InnerOffset = 2;
-            this.CoreParking.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.CoreParking.Location = new System.Drawing.Point(472, 14);
-            this.CoreParking.Name = "CoreParking";
-            this.CoreParking.Size = new System.Drawing.Size(48, 27);
-            this.CoreParking.TabIndex = 105;
-            this.CoreParking.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.CoreParking.UncheckedState.BorderRadius = 12;
-            this.CoreParking.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.CoreParking.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.CoreParking.UncheckedState.InnerBorderRadius = 8;
-            this.CoreParking.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.CoreParking.UncheckedState.InnerOffset = 2;
-            this.CoreParking.UseTransparentBackground = true;
-            this.CoreParking.CheckedChanged += new System.EventHandler(this.CoreParking_CheckedChanged);
-            this.CoreParking.Click += new System.EventHandler(this.CoreParking_Click);
+            this.Services.Animated = true;
+            this.Services.BackColor = System.Drawing.Color.Transparent;
+            this.Services.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.Services.CheckedState.BorderRadius = 12;
+            this.Services.CheckedState.BorderThickness = 2;
+            this.Services.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.Services.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.Services.CheckedState.InnerBorderRadius = 8;
+            this.Services.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.Services.CheckedState.InnerOffset = 2;
+            this.Services.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Services.Location = new System.Drawing.Point(472, 14);
+            this.Services.Name = "Services";
+            this.Services.Size = new System.Drawing.Size(48, 27);
+            this.Services.TabIndex = 105;
+            this.Services.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.Services.UncheckedState.BorderRadius = 12;
+            this.Services.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.Services.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.Services.UncheckedState.InnerBorderRadius = 8;
+            this.Services.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.Services.UncheckedState.InnerOffset = 2;
+            this.Services.UseTransparentBackground = true;
+            this.Services.CheckedChanged += new System.EventHandler(this.CoreParking_CheckedChanged);
+            this.Services.Click += new System.EventHandler(this.CoreParking_Click);
             // 
             // label5
             // 
@@ -228,9 +193,9 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(8, 14);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(199, 26);
+            this.label5.Size = new System.Drawing.Size(251, 26);
             this.label5.TabIndex = 1;
-            this.label5.Text = "Disable Core Parking";
+            this.label5.Text = "Disable Advanced Services";
             // 
             // label8
             // 
@@ -241,7 +206,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(223, 35);
             this.label8.TabIndex = 107;
-            this.label8.Text = "Tweaks | Page 4";
+            this.label8.Text = "Tweaks | Page 5";
             // 
             // guna2GradientPanel2
             // 
@@ -252,7 +217,7 @@
             this.guna2GradientPanel2.Controls.Add(this.label2);
             this.guna2GradientPanel2.Controls.Add(this.label7);
             this.guna2GradientPanel2.Controls.Add(this.guna2Separator1);
-            this.guna2GradientPanel2.Controls.Add(this.Mitigations);
+            this.guna2GradientPanel2.Controls.Add(this.FSE);
             this.guna2GradientPanel2.Controls.Add(this.label3);
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -284,10 +249,10 @@
             this.label2.ForeColor = System.Drawing.Color.Gainsboro;
             this.label2.Location = new System.Drawing.Point(10, 49);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(506, 36);
+            this.label2.Size = new System.Drawing.Size(508, 36);
             this.label2.TabIndex = 28;
-            this.label2.Text = "Disables various mitigations like SEHOP, ASLR, Spectre/Meltdown patches, CFG lock" +
-    ",\r\nand DMA remapping to optimize system performance and reduce overhead.";
+            this.label2.Text = "Disables Game DVR and FSE (Full-Screen Exclusive) mode, which is not recommended\r" +
+    "\nas it may hinder certain gaming features and performance.";
             // 
             // label7
             // 
@@ -308,33 +273,33 @@
             this.guna2Separator1.Size = new System.Drawing.Size(126, 10);
             this.guna2Separator1.TabIndex = 117;
             // 
-            // Mitigations
+            // FSE
             // 
-            this.Mitigations.Animated = true;
-            this.Mitigations.BackColor = System.Drawing.Color.Transparent;
-            this.Mitigations.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.Mitigations.CheckedState.BorderRadius = 12;
-            this.Mitigations.CheckedState.BorderThickness = 2;
-            this.Mitigations.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.Mitigations.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.Mitigations.CheckedState.InnerBorderRadius = 8;
-            this.Mitigations.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.Mitigations.CheckedState.InnerOffset = 2;
-            this.Mitigations.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Mitigations.Location = new System.Drawing.Point(472, 14);
-            this.Mitigations.Name = "Mitigations";
-            this.Mitigations.Size = new System.Drawing.Size(48, 27);
-            this.Mitigations.TabIndex = 105;
-            this.Mitigations.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.Mitigations.UncheckedState.BorderRadius = 12;
-            this.Mitigations.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.Mitigations.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.Mitigations.UncheckedState.InnerBorderRadius = 8;
-            this.Mitigations.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.Mitigations.UncheckedState.InnerOffset = 2;
-            this.Mitigations.UseTransparentBackground = true;
-            this.Mitigations.CheckedChanged += new System.EventHandler(this.Mitigations_CheckedChanged);
-            this.Mitigations.Click += new System.EventHandler(this.Mitigations_Click);
+            this.FSE.Animated = true;
+            this.FSE.BackColor = System.Drawing.Color.Transparent;
+            this.FSE.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.FSE.CheckedState.BorderRadius = 12;
+            this.FSE.CheckedState.BorderThickness = 2;
+            this.FSE.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.FSE.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.FSE.CheckedState.InnerBorderRadius = 8;
+            this.FSE.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.FSE.CheckedState.InnerOffset = 2;
+            this.FSE.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FSE.Location = new System.Drawing.Point(472, 14);
+            this.FSE.Name = "FSE";
+            this.FSE.Size = new System.Drawing.Size(48, 27);
+            this.FSE.TabIndex = 105;
+            this.FSE.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.FSE.UncheckedState.BorderRadius = 12;
+            this.FSE.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.FSE.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.FSE.UncheckedState.InnerBorderRadius = 8;
+            this.FSE.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.FSE.UncheckedState.InnerOffset = 2;
+            this.FSE.UseTransparentBackground = true;
+            this.FSE.CheckedChanged += new System.EventHandler(this.Mitigations_CheckedChanged);
+            this.FSE.Click += new System.EventHandler(this.Mitigations_Click);
             // 
             // label3
             // 
@@ -343,20 +308,20 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(8, 14);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(184, 26);
+            this.label3.Size = new System.Drawing.Size(263, 26);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Disable Mitigations";
+            this.label3.Text = "Enable FSE and Disable FSO";
             // 
             // guna2GradientPanel3
             // 
             this.guna2GradientPanel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel3.BorderRadius = 8;
             this.guna2GradientPanel3.BorderThickness = 2;
-            this.guna2GradientPanel3.Controls.Add(this.label9);
-            this.guna2GradientPanel3.Controls.Add(this.guna2Separator3);
             this.guna2GradientPanel3.Controls.Add(this.guna2PictureBox3);
+            this.guna2GradientPanel3.Controls.Add(this.label9);
+            this.guna2GradientPanel3.Controls.Add(this.guna2Separator8);
             this.guna2GradientPanel3.Controls.Add(this.label10);
-            this.guna2GradientPanel3.Controls.Add(this.BiosTweaks);
+            this.guna2GradientPanel3.Controls.Add(this.Power);
             this.guna2GradientPanel3.Controls.Add(this.label11);
             this.guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -366,40 +331,6 @@
             this.guna2GradientPanel3.TabIndex = 109;
             this.guna2GradientPanel3.UseTransparentBackground = true;
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Trebuchet MS", 10F);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.label9.Location = new System.Drawing.Point(30, 129);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(37, 18);
-            this.label9.TabIndex = 111;
-            this.label9.Text = "Beta";
-            // 
-            // guna2Separator3
-            // 
-            this.guna2Separator3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2Separator3.Location = new System.Drawing.Point(13, 145);
-            this.guna2Separator3.Name = "guna2Separator3";
-            this.guna2Separator3.Size = new System.Drawing.Size(51, 10);
-            this.guna2Separator3.TabIndex = 110;
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox3.BorderRadius = 7;
-            this.guna2PictureBox3.Enabled = false;
-            this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(10, 123);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(22, 22);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox3.TabIndex = 109;
-            this.guna2PictureBox3.TabStop = false;
-            this.guna2PictureBox3.UseTransparentBackground = true;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -407,37 +338,39 @@
             this.label10.ForeColor = System.Drawing.Color.Gainsboro;
             this.label10.Location = new System.Drawing.Point(10, 49);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(515, 54);
+            this.label10.Size = new System.Drawing.Size(501, 54);
             this.label10.TabIndex = 28;
-            this.label10.Text = resources.GetString("label10.Text");
+            this.label10.Text = "Disables power-saving features by turning off coalescing timers, energy estimatio" +
+    "n,\r\nand power throttling to ensure maximum performance without interruptions fro" +
+    "m\r\nsystem power management.";
             // 
-            // BiosTweaks
+            // Power
             // 
-            this.BiosTweaks.Animated = true;
-            this.BiosTweaks.BackColor = System.Drawing.Color.Transparent;
-            this.BiosTweaks.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.BiosTweaks.CheckedState.BorderRadius = 12;
-            this.BiosTweaks.CheckedState.BorderThickness = 2;
-            this.BiosTweaks.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.BiosTweaks.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.BiosTweaks.CheckedState.InnerBorderRadius = 8;
-            this.BiosTweaks.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.BiosTweaks.CheckedState.InnerOffset = 2;
-            this.BiosTweaks.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BiosTweaks.Location = new System.Drawing.Point(472, 14);
-            this.BiosTweaks.Name = "BiosTweaks";
-            this.BiosTweaks.Size = new System.Drawing.Size(48, 27);
-            this.BiosTweaks.TabIndex = 105;
-            this.BiosTweaks.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.BiosTweaks.UncheckedState.BorderRadius = 12;
-            this.BiosTweaks.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.BiosTweaks.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.BiosTweaks.UncheckedState.InnerBorderRadius = 8;
-            this.BiosTweaks.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.BiosTweaks.UncheckedState.InnerOffset = 2;
-            this.BiosTweaks.UseTransparentBackground = true;
-            this.BiosTweaks.CheckedChanged += new System.EventHandler(this.BiosTweaks_CheckedChanged);
-            this.BiosTweaks.Click += new System.EventHandler(this.BiosTweaks_Click);
+            this.Power.Animated = true;
+            this.Power.BackColor = System.Drawing.Color.Transparent;
+            this.Power.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.Power.CheckedState.BorderRadius = 12;
+            this.Power.CheckedState.BorderThickness = 2;
+            this.Power.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.Power.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.Power.CheckedState.InnerBorderRadius = 8;
+            this.Power.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.Power.CheckedState.InnerOffset = 2;
+            this.Power.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Power.Location = new System.Drawing.Point(472, 14);
+            this.Power.Name = "Power";
+            this.Power.Size = new System.Drawing.Size(48, 27);
+            this.Power.TabIndex = 105;
+            this.Power.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.Power.UncheckedState.BorderRadius = 12;
+            this.Power.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.Power.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.Power.UncheckedState.InnerBorderRadius = 8;
+            this.Power.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.Power.UncheckedState.InnerOffset = 2;
+            this.Power.UseTransparentBackground = true;
+            this.Power.CheckedChanged += new System.EventHandler(this.BiosTweaks_CheckedChanged);
+            this.Power.Click += new System.EventHandler(this.BiosTweaks_Click);
             // 
             // label11
             // 
@@ -446,9 +379,9 @@
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(8, 14);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(191, 26);
+            this.label11.Size = new System.Drawing.Size(287, 26);
             this.label11.TabIndex = 1;
-            this.label11.Text = "Legacy Bios Tweaks";
+            this.label11.Text = "Disable System Power Savings";
             // 
             // guna2GradientPanel4
             // 
@@ -459,7 +392,7 @@
             this.guna2GradientPanel4.Controls.Add(this.label13);
             this.guna2GradientPanel4.Controls.Add(this.label4);
             this.guna2GradientPanel4.Controls.Add(this.guna2Separator2);
-            this.guna2GradientPanel4.Controls.Add(this.ClearDevices);
+            this.guna2GradientPanel4.Controls.Add(this.Kernel);
             this.guna2GradientPanel4.Controls.Add(this.label14);
             this.guna2GradientPanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.guna2GradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -491,7 +424,7 @@
             this.label13.ForeColor = System.Drawing.Color.Gainsboro;
             this.label13.Location = new System.Drawing.Point(10, 49);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(500, 54);
+            this.label13.Size = new System.Drawing.Size(498, 54);
             this.label13.TabIndex = 28;
             this.label13.Text = resources.GetString("label13.Text");
             // 
@@ -514,33 +447,33 @@
             this.guna2Separator2.Size = new System.Drawing.Size(75, 10);
             this.guna2Separator2.TabIndex = 111;
             // 
-            // ClearDevices
+            // Kernel
             // 
-            this.ClearDevices.Animated = true;
-            this.ClearDevices.BackColor = System.Drawing.Color.Transparent;
-            this.ClearDevices.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.ClearDevices.CheckedState.BorderRadius = 12;
-            this.ClearDevices.CheckedState.BorderThickness = 2;
-            this.ClearDevices.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.ClearDevices.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.ClearDevices.CheckedState.InnerBorderRadius = 8;
-            this.ClearDevices.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.ClearDevices.CheckedState.InnerOffset = 2;
-            this.ClearDevices.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ClearDevices.Location = new System.Drawing.Point(472, 14);
-            this.ClearDevices.Name = "ClearDevices";
-            this.ClearDevices.Size = new System.Drawing.Size(48, 27);
-            this.ClearDevices.TabIndex = 105;
-            this.ClearDevices.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.ClearDevices.UncheckedState.BorderRadius = 12;
-            this.ClearDevices.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.ClearDevices.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.ClearDevices.UncheckedState.InnerBorderRadius = 8;
-            this.ClearDevices.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.ClearDevices.UncheckedState.InnerOffset = 2;
-            this.ClearDevices.UseTransparentBackground = true;
-            this.ClearDevices.CheckedChanged += new System.EventHandler(this.ClearDevices_CheckedChanged);
-            this.ClearDevices.Click += new System.EventHandler(this.ClearDevices_Click);
+            this.Kernel.Animated = true;
+            this.Kernel.BackColor = System.Drawing.Color.Transparent;
+            this.Kernel.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.Kernel.CheckedState.BorderRadius = 12;
+            this.Kernel.CheckedState.BorderThickness = 2;
+            this.Kernel.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.Kernel.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.Kernel.CheckedState.InnerBorderRadius = 8;
+            this.Kernel.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.Kernel.CheckedState.InnerOffset = 2;
+            this.Kernel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Kernel.Location = new System.Drawing.Point(472, 14);
+            this.Kernel.Name = "Kernel";
+            this.Kernel.Size = new System.Drawing.Size(48, 27);
+            this.Kernel.TabIndex = 105;
+            this.Kernel.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.Kernel.UncheckedState.BorderRadius = 12;
+            this.Kernel.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.Kernel.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.Kernel.UncheckedState.InnerBorderRadius = 8;
+            this.Kernel.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.Kernel.UncheckedState.InnerOffset = 2;
+            this.Kernel.UseTransparentBackground = true;
+            this.Kernel.CheckedChanged += new System.EventHandler(this.ClearDevices_CheckedChanged);
+            this.Kernel.Click += new System.EventHandler(this.ClearDevices_Click);
             // 
             // label14
             // 
@@ -549,9 +482,9 @@
             this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.Location = new System.Drawing.Point(8, 14);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(249, 26);
+            this.label14.Size = new System.Drawing.Size(197, 26);
             this.label14.TabIndex = 1;
-            this.label14.Text = "Clear Non Present Devices";
+            this.label14.Text = "Basic Kernel Tweaks";
             // 
             // guna2GradientPanel5
             // 
@@ -562,7 +495,7 @@
             this.guna2GradientPanel5.Controls.Add(this.label16);
             this.guna2GradientPanel5.Controls.Add(this.label15);
             this.guna2GradientPanel5.Controls.Add(this.guna2Separator5);
-            this.guna2GradientPanel5.Controls.Add(this.HyperV);
+            this.guna2GradientPanel5.Controls.Add(this.Hiber);
             this.guna2GradientPanel5.Controls.Add(this.label17);
             this.guna2GradientPanel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.guna2GradientPanel5.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -594,10 +527,10 @@
             this.label16.ForeColor = System.Drawing.Color.Gainsboro;
             this.label16.Location = new System.Drawing.Point(10, 49);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(501, 36);
+            this.label16.Size = new System.Drawing.Size(479, 36);
             this.label16.TabIndex = 28;
-            this.label16.Text = "Disables Hyper-V to improve compatibility and performance for certain application" +
-    "s \r\nand virtual machines.";
+            this.label16.Text = "Disables hibernation and detailed sleep diagnostics, preventing the system from\r\n" +
+    "entering hibernation mode for improved responsiveness.";
             // 
             // label15
             // 
@@ -618,33 +551,33 @@
             this.guna2Separator5.Size = new System.Drawing.Size(75, 10);
             this.guna2Separator5.TabIndex = 117;
             // 
-            // HyperV
+            // Hiber
             // 
-            this.HyperV.Animated = true;
-            this.HyperV.BackColor = System.Drawing.Color.Transparent;
-            this.HyperV.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.HyperV.CheckedState.BorderRadius = 12;
-            this.HyperV.CheckedState.BorderThickness = 2;
-            this.HyperV.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.HyperV.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.HyperV.CheckedState.InnerBorderRadius = 8;
-            this.HyperV.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.HyperV.CheckedState.InnerOffset = 2;
-            this.HyperV.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.HyperV.Location = new System.Drawing.Point(472, 14);
-            this.HyperV.Name = "HyperV";
-            this.HyperV.Size = new System.Drawing.Size(48, 27);
-            this.HyperV.TabIndex = 105;
-            this.HyperV.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.HyperV.UncheckedState.BorderRadius = 12;
-            this.HyperV.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.HyperV.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.HyperV.UncheckedState.InnerBorderRadius = 8;
-            this.HyperV.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.HyperV.UncheckedState.InnerOffset = 2;
-            this.HyperV.UseTransparentBackground = true;
-            this.HyperV.CheckedChanged += new System.EventHandler(this.HyperV_CheckedChanged);
-            this.HyperV.Click += new System.EventHandler(this.HyperV_Click);
+            this.Hiber.Animated = true;
+            this.Hiber.BackColor = System.Drawing.Color.Transparent;
+            this.Hiber.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.Hiber.CheckedState.BorderRadius = 12;
+            this.Hiber.CheckedState.BorderThickness = 2;
+            this.Hiber.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.Hiber.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.Hiber.CheckedState.InnerBorderRadius = 8;
+            this.Hiber.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.Hiber.CheckedState.InnerOffset = 2;
+            this.Hiber.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Hiber.Location = new System.Drawing.Point(472, 14);
+            this.Hiber.Name = "Hiber";
+            this.Hiber.Size = new System.Drawing.Size(48, 27);
+            this.Hiber.TabIndex = 105;
+            this.Hiber.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.Hiber.UncheckedState.BorderRadius = 12;
+            this.Hiber.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.Hiber.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.Hiber.UncheckedState.InnerBorderRadius = 8;
+            this.Hiber.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.Hiber.UncheckedState.InnerOffset = 2;
+            this.Hiber.UseTransparentBackground = true;
+            this.Hiber.CheckedChanged += new System.EventHandler(this.HyperV_CheckedChanged);
+            this.Hiber.Click += new System.EventHandler(this.HyperV_Click);
             // 
             // label17
             // 
@@ -653,9 +586,9 @@
             this.label17.ForeColor = System.Drawing.Color.White;
             this.label17.Location = new System.Drawing.Point(8, 14);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(151, 26);
+            this.label17.Size = new System.Drawing.Size(187, 26);
             this.label17.TabIndex = 1;
-            this.label17.Text = "Disable Hyper-V";
+            this.label17.Text = "Disable Hibernation";
             // 
             // guna2GradientPanel6
             // 
@@ -666,7 +599,7 @@
             this.guna2GradientPanel6.Controls.Add(this.label12);
             this.guna2GradientPanel6.Controls.Add(this.guna2Separator4);
             this.guna2GradientPanel6.Controls.Add(this.label19);
-            this.guna2GradientPanel6.Controls.Add(this.AltTab);
+            this.guna2GradientPanel6.Controls.Add(this.SSD);
             this.guna2GradientPanel6.Controls.Add(this.label20);
             this.guna2GradientPanel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.guna2GradientPanel6.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -717,37 +650,39 @@
             this.label19.ForeColor = System.Drawing.Color.Gainsboro;
             this.label19.Location = new System.Drawing.Point(10, 49);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(446, 18);
+            this.label19.Size = new System.Drawing.Size(519, 36);
             this.label19.TabIndex = 28;
-            this.label19.Text = "Enables the classic Alt-Tab interface for a simpler and faster task switcher.";
+            this.label19.Text = "Prevents SSDs from entering idle state by disabling power-saving parameters, ensu" +
+    "ring\r\ncontinuous performance without interruptions from energy estimation settin" +
+    "gs.";
             // 
-            // AltTab
+            // SSD
             // 
-            this.AltTab.Animated = true;
-            this.AltTab.BackColor = System.Drawing.Color.Transparent;
-            this.AltTab.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.AltTab.CheckedState.BorderRadius = 12;
-            this.AltTab.CheckedState.BorderThickness = 2;
-            this.AltTab.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.AltTab.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.AltTab.CheckedState.InnerBorderRadius = 8;
-            this.AltTab.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.AltTab.CheckedState.InnerOffset = 2;
-            this.AltTab.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AltTab.Location = new System.Drawing.Point(472, 14);
-            this.AltTab.Name = "AltTab";
-            this.AltTab.Size = new System.Drawing.Size(48, 27);
-            this.AltTab.TabIndex = 105;
-            this.AltTab.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
-            this.AltTab.UncheckedState.BorderRadius = 12;
-            this.AltTab.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.AltTab.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.AltTab.UncheckedState.InnerBorderRadius = 8;
-            this.AltTab.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.AltTab.UncheckedState.InnerOffset = 2;
-            this.AltTab.UseTransparentBackground = true;
-            this.AltTab.CheckedChanged += new System.EventHandler(this.AltTab_CheckedChanged);
-            this.AltTab.Click += new System.EventHandler(this.AltTab_Click);
+            this.SSD.Animated = true;
+            this.SSD.BackColor = System.Drawing.Color.Transparent;
+            this.SSD.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.SSD.CheckedState.BorderRadius = 12;
+            this.SSD.CheckedState.BorderThickness = 2;
+            this.SSD.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.SSD.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.SSD.CheckedState.InnerBorderRadius = 8;
+            this.SSD.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.SSD.CheckedState.InnerOffset = 2;
+            this.SSD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SSD.Location = new System.Drawing.Point(472, 14);
+            this.SSD.Name = "SSD";
+            this.SSD.Size = new System.Drawing.Size(48, 27);
+            this.SSD.TabIndex = 105;
+            this.SSD.UncheckedState.BorderColor = System.Drawing.Color.Transparent;
+            this.SSD.UncheckedState.BorderRadius = 12;
+            this.SSD.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.SSD.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.SSD.UncheckedState.InnerBorderRadius = 8;
+            this.SSD.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.SSD.UncheckedState.InnerOffset = 2;
+            this.SSD.UseTransparentBackground = true;
+            this.SSD.CheckedChanged += new System.EventHandler(this.AltTab_CheckedChanged);
+            this.SSD.Click += new System.EventHandler(this.AltTab_Click);
             // 
             // label20
             // 
@@ -756,33 +691,17 @@
             this.label20.ForeColor = System.Drawing.Color.White;
             this.label20.Location = new System.Drawing.Point(8, 14);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(219, 26);
+            this.label20.Size = new System.Drawing.Size(260, 26);
             this.label20.TabIndex = 1;
-            this.label20.Text = "Enable Classic ALT-TAB";
+            this.label20.Text = "Disable The SSD Idle States";
             // 
             // guna2Separator7
             // 
             this.guna2Separator7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
-            this.guna2Separator7.Location = new System.Drawing.Point(551, 614);
+            this.guna2Separator7.Location = new System.Drawing.Point(571, 614);
             this.guna2Separator7.Name = "guna2Separator7";
             this.guna2Separator7.Size = new System.Drawing.Size(20, 10);
             this.guna2Separator7.TabIndex = 109;
-            // 
-            // guna2PictureBox26
-            // 
-            this.guna2PictureBox26.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox26.BorderRadius = 7;
-            this.guna2PictureBox26.Enabled = false;
-            this.guna2PictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox26.Image")));
-            this.guna2PictureBox26.ImageRotate = 0F;
-            this.guna2PictureBox26.InitialImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox26.InitialImage")));
-            this.guna2PictureBox26.Location = new System.Drawing.Point(546, 593);
-            this.guna2PictureBox26.Name = "guna2PictureBox26";
-            this.guna2PictureBox26.Size = new System.Drawing.Size(29, 25);
-            this.guna2PictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox26.TabIndex = 120;
-            this.guna2PictureBox26.TabStop = false;
-            this.guna2PictureBox26.UseTransparentBackground = true;
             // 
             // guna2PictureBox23
             // 
@@ -876,36 +795,120 @@
             this.guna2ImageButton2.TabIndex = 124;
             this.guna2ImageButton2.Click += new System.EventHandler(this.guna2ImageButton2_Click);
             // 
-            // guna2ImageButton1
+            // guna2PictureBox7
             // 
-            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(38, 38);
-            this.guna2ImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton1.Image")));
-            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton1.ImageRotate = 0F;
-            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(1052, 587);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(34, 34);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(40, 40);
-            this.guna2ImageButton1.TabIndex = 125;
-            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
+            this.guna2PictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox7.BorderRadius = 7;
+            this.guna2PictureBox7.Enabled = false;
+            this.guna2PictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox7.Image")));
+            this.guna2PictureBox7.ImageRotate = 0F;
+            this.guna2PictureBox7.InitialImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox7.InitialImage")));
+            this.guna2PictureBox7.Location = new System.Drawing.Point(546, 593);
+            this.guna2PictureBox7.Name = "guna2PictureBox7";
+            this.guna2PictureBox7.Size = new System.Drawing.Size(29, 25);
+            this.guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox7.TabIndex = 125;
+            this.guna2PictureBox7.TabStop = false;
+            this.guna2PictureBox7.UseTransparentBackground = true;
             // 
-            // WindowsTweaksP4
+            // NextPage
+            // 
+            this.NextPage.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.NextPage.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.NextPage.HoverState.ImageSize = new System.Drawing.Size(38, 38);
+            this.NextPage.Image = ((System.Drawing.Image)(resources.GetObject("NextPage.Image")));
+            this.NextPage.ImageOffset = new System.Drawing.Point(0, 0);
+            this.NextPage.ImageRotate = 0F;
+            this.NextPage.ImageSize = new System.Drawing.Size(40, 40);
+            this.NextPage.Location = new System.Drawing.Point(1052, 587);
+            this.NextPage.Name = "NextPage";
+            this.NextPage.PressedState.ImageSize = new System.Drawing.Size(34, 34);
+            this.NextPage.Size = new System.Drawing.Size(40, 40);
+            this.NextPage.TabIndex = 126;
+            this.NextPage.Click += new System.EventHandler(this.NextPage_Click);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Trebuchet MS", 10F);
+            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.label18.Location = new System.Drawing.Point(30, 129);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(37, 18);
+            this.label18.TabIndex = 114;
+            this.label18.Text = "Beta";
+            // 
+            // guna2Separator6
+            // 
+            this.guna2Separator6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(142)))), ((int)(((byte)(203)))));
+            this.guna2Separator6.Location = new System.Drawing.Point(13, 145);
+            this.guna2Separator6.Name = "guna2Separator6";
+            this.guna2Separator6.Size = new System.Drawing.Size(51, 10);
+            this.guna2Separator6.TabIndex = 113;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.BorderRadius = 7;
+            this.guna2PictureBox1.Enabled = false;
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(10, 123);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(22, 22);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 112;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox3.BorderRadius = 7;
+            this.guna2PictureBox3.Enabled = false;
+            this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(10, 126);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(22, 22);
+            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox3.TabIndex = 115;
+            this.guna2PictureBox3.TabStop = false;
+            this.guna2PictureBox3.UseTransparentBackground = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Trebuchet MS", 10F);
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(82)))), ((int)(((byte)(82)))));
+            this.label9.Location = new System.Drawing.Point(30, 129);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(95, 18);
+            this.label9.TabIndex = 116;
+            this.label9.Text = "Power Hungry";
+            // 
+            // guna2Separator8
+            // 
+            this.guna2Separator8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(82)))), ((int)(((byte)(82)))));
+            this.guna2Separator8.Location = new System.Drawing.Point(13, 145);
+            this.guna2Separator8.Name = "guna2Separator8";
+            this.guna2Separator8.Size = new System.Drawing.Size(108, 10);
+            this.guna2Separator8.TabIndex = 117;
+            // 
+            // WindowsTweaksP5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
             this.ClientSize = new System.Drawing.Size(1107, 635);
-            this.Controls.Add(this.guna2ImageButton1);
-            this.Controls.Add(this.guna2PictureBox26);
+            this.Controls.Add(this.NextPage);
+            this.Controls.Add(this.guna2PictureBox7);
+            this.Controls.Add(this.guna2PictureBox25);
             this.Controls.Add(this.guna2Separator7);
             this.Controls.Add(this.guna2PictureBox23);
             this.Controls.Add(this.guna2PictureBox22);
             this.Controls.Add(this.guna2PictureBox21);
             this.Controls.Add(this.guna2PictureBox24);
-            this.Controls.Add(this.guna2PictureBox25);
             this.Controls.Add(this.guna2GradientPanel5);
             this.Controls.Add(this.guna2GradientPanel6);
             this.Controls.Add(this.guna2GradientPanel3);
@@ -916,18 +919,16 @@
             this.Controls.Add(this.guna2GradientPanel4);
             this.Controls.Add(this.guna2ImageButton2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "WindowsTweaksP4";
+            this.Name = "WindowsTweaksP5";
             this.Text = "WindowsTweaks";
             this.Load += new System.EventHandler(this.WindowsTweaks_Load);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2GradientPanel2.ResumeLayout(false);
             this.guna2GradientPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             this.guna2GradientPanel3.ResumeLayout(false);
             this.guna2GradientPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.guna2GradientPanel4.ResumeLayout(false);
             this.guna2GradientPanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
@@ -937,12 +938,14 @@
             this.guna2GradientPanel6.ResumeLayout(false);
             this.guna2GradientPanel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -954,40 +957,36 @@
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private System.Windows.Forms.Label label5;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch CoreParking;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch Services;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label8;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch Mitigations;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch FSE;
         private System.Windows.Forms.Label label3;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel3;
         private System.Windows.Forms.Label label10;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch BiosTweaks;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch Power;
         private System.Windows.Forms.Label label11;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel4;
         private System.Windows.Forms.Label label13;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch ClearDevices;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch Kernel;
         private System.Windows.Forms.Label label14;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel5;
         private System.Windows.Forms.Label label16;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch HyperV;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch Hiber;
         private System.Windows.Forms.Label label17;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel6;
         private System.Windows.Forms.Label label19;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch AltTab;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch SSD;
         private System.Windows.Forms.Label label20;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox22;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox21;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox24;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox25;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox26;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox23;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator7;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private System.Windows.Forms.Label label21;
-        private Guna.UI2.WinForms.Guna2Separator guna2Separator8;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private System.Windows.Forms.Label label4;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator2;
@@ -1000,9 +999,13 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox6;
         private System.Windows.Forms.Label label15;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator5;
-        private System.Windows.Forms.Label label9;
-        private Guna.UI2.WinForms.Guna2Separator guna2Separator3;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox7;
+        private Guna.UI2.WinForms.Guna2ImageButton NextPage;
+        private System.Windows.Forms.Label label18;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator6;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
+        private System.Windows.Forms.Label label9;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator8;
     }
 }
