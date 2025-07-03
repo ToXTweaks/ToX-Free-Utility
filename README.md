@@ -1,4 +1,4 @@
-![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)
+![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg) ![License: Proprietary](https://img.shields.io/badge/license-Proprietary-red)
 
 # 🚀 **ToX Free Utility** – Optimize Your Windows Like a Pro!
 
