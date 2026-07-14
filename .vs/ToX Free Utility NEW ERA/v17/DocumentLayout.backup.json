@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Tox free utility\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|c:\\users\\admin\\desktop\\tox free utility\\tox free utility\\control pages\\pages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\control pages\\pages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|c:\\users\\admin\\desktop\\tox free utility\\tox free utility\\controls\\tweakcardfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\controls\\tweakcardfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pages.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tox free utility\\Tox free utility\\Control Pages\\Pages.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Control Pages\\Pages.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tox free utility\\Tox free utility\\Control Pages\\Pages.cs",
+              "RelativeToolTip": "Tox free utility\\Control Pages\\Pages.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T18:43:32.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TweakCardFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tox free utility\\Tox free utility\\Controls\\TweakCardFactory.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Controls\\TweakCardFactory.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tox free utility\\Tox free utility\\Controls\\TweakCardFactory.cs",
+              "RelativeToolTip": "Tox free utility\\Controls\\TweakCardFactory.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T18:43:29.568Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

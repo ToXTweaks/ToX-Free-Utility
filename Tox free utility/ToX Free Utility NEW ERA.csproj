@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ToX_Free_Utility_NEW_ERA</RootNamespace>
+    <AssemblyName>ToX Free Utility NEW ERA</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>ToXFreeIcon.ico</ApplicationIcon>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Build\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=10.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.10.0.9\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.6.1\lib\net462\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.IO.Pipelines, Version=10.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.10.0.9\lib\net462\System.IO.Pipelines.dll</HintPath>
+      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.6.3\lib\net462\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.6.1\lib\net462\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=10.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.10.0.9\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=10.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.10.0.9\lib\net462\System.Text.Json.dll</HintPath>
+      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Vortex.Ui, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\Vortex.Ui.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Control Pages\Pages.cs" />
+    <Compile Include="Pages\advanced.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\advanced.Designer.cs">
+      <DependentUpon>advanced.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\biostweaks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\biostweaks.Designer.cs">
+      <DependentUpon>biostweaks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\dashboard.Designer.cs">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\debloat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\debloat.Designer.cs">
+      <DependentUpon>debloat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\gamebooster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\gamebooster.Designer.cs">
+      <DependentUpon>gamebooster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\graphic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\graphic.Designer.cs">
+      <DependentUpon>graphic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\peripherals.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\peripherals.Designer.cs">
+      <DependentUpon>peripherals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\windowstweaks1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\windowstweaks1.Designer.cs">
+      <DependentUpon>windowstweaks1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\TweakCatalog.cs" />
+    <Compile Include="Settings\TweakStateStore.cs" />
+    <Compile Include="Settings\GameBoosterDefaults.cs" />
+    <Compile Include="Settings\PowerPlanConfig.cs" />
+    <Compile Include="Settings\PowerPlanBuilder.cs" />
+    <Compile Include="Settings\DashboardMetrics.cs" />
+    <Compile Include="Settings\TweakResult.cs" />
+    <Compile Include="ToXFree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToXFree.Designer.cs">
+      <DependentUpon>ToXFree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToXFree.Integration.cs">
+      <DependentUpon>ToXFree.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\TweakCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TweakCardFactory.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\TweakConfigType.cs" />
+    <Compile Include="Tweaks\AppDebloatTweaks.cs" />
+    <Compile Include="Tweaks\DebloatTweaks.cs" />
+    <Compile Include="Tweaks\JunkCleanTweaks.cs" />
+    <Compile Include="Tweaks\GameBoosterTweaks.cs" />
+    <Compile Include="Tweaks\GraphicTweaks.cs" />
+    <Compile Include="Tweaks\PeripheralsTweaks.cs" />
+    <Compile Include="Tweaks\TweakExecutor.cs" />
+    <Compile Include="Tweaks\WindowsTweaks.cs" />
+    <EmbeddedResource Include="Pages\advanced.resx">
+      <DependentUpon>advanced.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\biostweaks.resx">
+      <DependentUpon>biostweaks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\dashboard.resx">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\debloat.resx">
+      <DependentUpon>debloat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\gamebooster.resx">
+      <DependentUpon>gamebooster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\graphic.resx">
+      <DependentUpon>graphic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\peripherals.resx">
+      <DependentUpon>peripherals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\windowstweaks1.resx">
+      <DependentUpon>windowstweaks1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToXFree.resx">
+      <DependentUpon>ToXFree.cs</DependentUpon>
+    </EmbeddedResource>
+    <!--<EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>-->
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peripherals.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\debloat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graphic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gamebooster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advanced.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time-fast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\productivity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rocket-lunch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\task-checklist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microchip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\done.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waiting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-dot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usage-dot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tweaks-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tweaks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finished.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feature-break.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inprogress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\debloatSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uninstall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\install.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microsoft-3d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound-recorder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alarm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\builder-3d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peripherals-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graphic-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bios-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gamebooster-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\codw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fortnite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minecraft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\valorant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roblox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rivals.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fifa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rust.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csgo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gamecontroller.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\load.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\optimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchgame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pickaxe-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fastsup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sleep.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\highperf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contrast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\generate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ToXFreeIcon.ico" />
+    <None Include="Resources\ToXFreeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Settings\EmbeddedTweak.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets" Condition="Exists('..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,346 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marti\\Desktop\\Tox free utility\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\toxfree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\toxfree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|c:\\users\\marti\\desktop\\tox free utility\\tox free utility\\pages\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\pages\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\pages\\graphic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\pages\\graphic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\pages\\debloat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\pages\\debloat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\tweaks\\windowstweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\tweaks\\windowstweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\pages\\biostweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\pages\\biostweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\settings\\tweakcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\settings\\tweakcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\pages\\biostweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\pages\\biostweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\pages\\gamebooster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\pages\\gamebooster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\tweaks\\gameboostertweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\tweaks\\gameboostertweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\tweaks\\peripheralstweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\tweaks\\peripheralstweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\tweaks\\junkcleantweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\tweaks\\junkcleantweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\tweaks\\graphictweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\tweaks\\graphictweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\pages\\windowstweaks1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\pages\\windowstweaks1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\pages\\windowstweaks1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\pages\\windowstweaks1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\toxfree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\toxfree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\pages\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\pages\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\pages\\graphic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\pages\\graphic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\pages\\peripherals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E59774-0FC3-4DBA-A5B5-EECE865F4D03}|Tox free utility\\ToX Free Utility NEW ERA.csproj|solutionrelative:tox free utility\\pages\\peripherals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marti\\Desktop\\Tox free utility\\tox free utility\\pages\\windowstweaks6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tox free utility\\pages\\windowstweaks6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "biostweaks.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\biostweaks.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Pages\\biostweaks.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\biostweaks.cs",
+              "RelativeToolTip": "Tox free utility\\Pages\\biostweaks.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-07-14T02:15:30.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TweakCatalog.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Settings\\TweakCatalog.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Settings\\TweakCatalog.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Settings\\TweakCatalog.cs",
+              "RelativeToolTip": "Tox free utility\\Settings\\TweakCatalog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T01:51:31.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "graphic.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\graphic.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Pages\\graphic.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\graphic.cs [Design]",
+              "RelativeToolTip": "Tox free utility\\Pages\\graphic.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-07-14T01:47:31.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "debloat.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\debloat.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Pages\\debloat.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\debloat.cs",
+              "RelativeToolTip": "Tox free utility\\Pages\\debloat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-07-14T01:42:58.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "windowstweaks1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\windowstweaks1.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Pages\\windowstweaks1.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\windowstweaks1.cs [Design]",
+              "RelativeToolTip": "Tox free utility\\Pages\\windowstweaks1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-07-14T01:42:15.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WindowsTweaks.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Tweaks\\WindowsTweaks.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Tweaks\\WindowsTweaks.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Tweaks\\WindowsTweaks.cs",
+              "RelativeToolTip": "Tox free utility\\Tweaks\\WindowsTweaks.cs",
+              "ViewState": "AgIAAAUNAAAAAAAAAAAAAB4NAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T01:42:15.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GraphicTweaks.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Tweaks\\GraphicTweaks.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Tweaks\\GraphicTweaks.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Tweaks\\GraphicTweaks.cs",
+              "RelativeToolTip": "Tox free utility\\Tweaks\\GraphicTweaks.cs",
+              "ViewState": "AgIAAIECAAAAAAAAAAAAACsAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T01:42:15.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\dashboard.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Pages\\dashboard.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\dashboard.cs [Design]",
+              "RelativeToolTip": "Tox free utility\\Pages\\dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T01:42:15.173Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ToXFree.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\ToXFree.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\ToXFree.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\ToXFree.cs [Design]",
+              "RelativeToolTip": "Tox free utility\\ToXFree.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T01:42:15.183Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "biostweaks.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\biostweaks.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Pages\\biostweaks.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\biostweaks.cs [Design]",
+              "RelativeToolTip": "Tox free utility\\Pages\\biostweaks.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-07-14T02:16:13.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameBoosterTweaks.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Tweaks\\GameBoosterTweaks.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Tweaks\\GameBoosterTweaks.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Tweaks\\GameBoosterTweaks.cs",
+              "RelativeToolTip": "Tox free utility\\Tweaks\\GameBoosterTweaks.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T01:46:47.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ToXFree.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\ToXFree.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\ToXFree.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\ToXFree.cs",
+              "RelativeToolTip": "Tox free utility\\ToXFree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T01:42:15.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "gamebooster.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\gamebooster.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Pages\\gamebooster.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\gamebooster.cs",
+              "RelativeToolTip": "Tox free utility\\Pages\\gamebooster.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwHwCAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-07-14T01:42:15.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JunkCleanTweaks.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Tweaks\\JunkCleanTweaks.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Tweaks\\JunkCleanTweaks.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Tweaks\\JunkCleanTweaks.cs",
+              "RelativeToolTip": "Tox free utility\\Tweaks\\JunkCleanTweaks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T01:46:51.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PeripheralsTweaks.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Tweaks\\PeripheralsTweaks.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Tweaks\\PeripheralsTweaks.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Tweaks\\PeripheralsTweaks.cs",
+              "RelativeToolTip": "Tox free utility\\Tweaks\\PeripheralsTweaks.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAhwFQAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T01:42:15.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "windowstweaks1.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\windowstweaks1.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Pages\\windowstweaks1.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\windowstweaks1.cs",
+              "RelativeToolTip": "Tox free utility\\Pages\\windowstweaks1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-07-14T01:42:15.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "peripherals.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\peripherals.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Pages\\peripherals.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\peripherals.cs",
+              "RelativeToolTip": "Tox free utility\\Pages\\peripherals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-07-14T01:42:15.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "windowstweaks6.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\windowstweaks6.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Pages\\windowstweaks6.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\windowstweaks6.cs",
+              "RelativeToolTip": "Tox free utility\\Pages\\windowstweaks6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-07-14T01:35:59.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\dashboard.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Pages\\dashboard.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\dashboard.cs*",
+              "RelativeToolTip": "Tox free utility\\Pages\\dashboard.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-07-14T01:42:15.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "graphic.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\graphic.cs",
+              "RelativeDocumentMoniker": "Tox free utility\\Pages\\graphic.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\Tox free utility\\Tox free utility\\Pages\\graphic.cs",
+              "RelativeToolTip": "Tox free utility\\Pages\\graphic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2026-07-14T01:42:15.185Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
