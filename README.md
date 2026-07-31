@@ -12,7 +12,7 @@ Looking to boost your PC’s performance? 🖥️ With **ToX Free Utility**, you
 
 Say goodbye to lag and sluggishness! Download **ToX Free Utility** and take your Windows experience to the next level! 💥
 # Preview
-![image](https://ibb.co/bMcpBHQj)
+![image](https://i.ibb.co/KpTCqNbc/image.png)
 
 **The Free Utility is just a small fraction of the things you can do to your PC, unlock your PCs full potential at 
 __https://toxtweaks.com/__**
