@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ToX_Free_Utility
+namespace ToX_Free_Utility_NEW_ERA
 {
     internal static class Program
     {
@@ -13,8 +16,7 @@ namespace ToX_Free_Utility
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
-
+            Application.Run(new ToXFree());
         }
     }
 }

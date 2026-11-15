@@ -1,15 +1,16 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ToX Free Utility v2.3")]
-[assembly: AssemblyDescription("Free Windows Optimizer & Game Booster by ToX Tweaks © 2025 | discord.gg/toxtweaks")]
+[assembly: AssemblyTitle("ToX Free Utility")]
+[assembly: AssemblyDescription("ToX Free Utility by ToX Tweaks")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("https://toxtweaks.com/")]
-[assembly: AssemblyProduct("ToX Free Utility")]
-[assembly: AssemblyCopyright("Copyright © ToX Tweaks 2025")]
+[assembly: AssemblyCompany("ToX Tweaks")]
+[assembly: AssemblyProduct("ToX Tweaks")]
+[assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("87cbea24-8499-4e65-b2e8-9fc84e7e1691")]
+[assembly: Guid("92e59774-0fc3-4dba-a5b5-eece865f4d03")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -28,5 +29,6 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("2.0.0.2")]
-[assembly: AssemblyFileVersion("2.0.0.2")]
+[assembly: AssemblyVersion("3.1.0.0")]
+[assembly: AssemblyFileVersion("3.1.0.0")]
+[assembly: AssemblyInformationalVersion("3.1")]
